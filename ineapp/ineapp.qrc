@@ -1,0 +1,1115 @@
+<RCC>
+    <qresource prefix="/">
+        <!-- Icons group A from Li Juan -->
+
+        <file alias="file_new_disabled_48.png">icons/file_new_disabled_48.png</file>
+        <file alias="file_new_disabled_64.png">icons/file_new_disabled_64.png</file>
+        <file alias="file_new_active_48.png">icons/file_new_active_48.png</file>
+        <file alias="file_new_active_64.png">icons/file_new_active_64.png</file>
+
+        <file alias="file_open_disabled_48.png">icons/file_open_disabled_48.png</file>
+        <file alias="file_open_disabled_64.png">icons/file_open_disabled_64.png</file>
+        <file alias="file_open_active_48.png">icons/file_open_active_48.png</file>
+        <file alias="file_open_active_64.png">icons/file_open_active_64.png</file>
+
+        <file alias="file_print_disabled_48.png">icons/file_print_disabled_48.png</file>
+        <file alias="file_print_disabled_64.png">icons/file_print_disabled_64.png</file>
+        <file alias="file_print_active_48.png">icons/file_print_active_48.png</file>
+        <file alias="file_print_active_64.png">icons/file_print_active_64.png</file>
+
+        <file alias="file_save_disabled_48.png">icons/file_save_disabled_48.png</file>
+        <file alias="file_save_disabled_64.png">icons/file_save_disabled_64.png</file>
+        <file alias="file_save_active_48.png">icons/file_save_active_48.png</file>
+        <file alias="file_save_active_64.png">icons/file_save_active_64.png</file>
+
+        <file alias="edit_copy_disabled_48.png">icons/edit_copy_disabled_48.png</file>
+        <file alias="edit_copy_disabled_64.png">icons/edit_copy_disabled_64.png</file>
+        <file alias="edit_copy_active_48.png">icons/edit_copy_active_48.png</file>
+        <file alias="edit_copy_active_64.png">icons/edit_copy_active_64.png</file>
+
+        <file alias="edit_cut_disabled_48.png">icons/edit_cut_disabled_48.png</file>
+        <file alias="edit_cut_disabled_64.png">icons/edit_cut_disabled_64.png</file>
+        <file alias="edit_cut_active_48.png">icons/edit_cut_active_48.png</file>
+        <file alias="edit_cut_active_64.png">icons/edit_cut_active_64.png</file>
+
+        <file alias="edit_paste_disabled_48.png">icons/edit_paste_disabled_48.png</file>
+        <file alias="edit_paste_disabled_64.png">icons/edit_paste_disabled_64.png</file>
+        <file alias="edit_paste_active_48.png">icons/edit_paste_active_48.png</file>
+        <file alias="edit_paste_active_64.png">icons/edit_paste_active_64.png</file>
+
+        <file alias="edit_find_disabled_48.png">icons/edit_find_disabled_48.png</file>
+        <file alias="edit_find_disabled_64.png">icons/edit_find_disabled_64.png</file>
+        <file alias="edit_find_active_48.png">icons/edit_find_active_48.png</file>
+        <file alias="edit_find_active_64.png">icons/edit_find_active_64.png</file>
+
+        <file alias="edit_find_next_disabled_48.png">icons/edit_find_next_disabled_48.png</file>
+        <file alias="edit_find_next_disabled_64.png">icons/edit_find_next_disabled_64.png</file>
+        <file alias="edit_find_next_active_48.png">icons/edit_find_next_active_48.png</file>
+        <file alias="edit_find_next_active_64.png">icons/edit_find_next_active_64.png</file>
+
+        <file alias="edit_find_previous_disabled_48.png">icons/edit_find_previous_disabled_48.png</file>
+        <file alias="edit_find_previous_disabled_64.png">icons/edit_find_previous_disabled_64.png</file>
+        <file alias="edit_find_previous_active_48.png">icons/edit_find_previous_active_48.png</file>
+        <file alias="edit_find_previous_active_64.png">icons/edit_find_previous_active_64.png</file>
+
+        <file alias="edit_undo_disabled_48.png">icons/edit_undo_disabled_48.png</file>
+        <file alias="edit_undo_disabled_64.png">icons/edit_undo_disabled_64.png</file>
+        <file alias="edit_undo_active_48.png">icons/edit_undo_active_48.png</file>
+        <file alias="edit_undo_active_64.png">icons/edit_undo_active_64.png</file>
+
+        <file alias="edit_redo_disabled_48.png">icons/edit_redo_disabled_48.png</file>
+        <file alias="edit_redo_disabled_64.png">icons/edit_redo_disabled_64.png</file>
+        <file alias="edit_redo_active_48.png">icons/edit_redo_active_48.png</file>
+        <file alias="edit_redo_active_64.png">icons/edit_redo_active_64.png</file>
+
+        <file alias="view_zoom_in_disabled_48.png">icons/view_zoom_in_disabled_48.png</file>
+        <file alias="view_zoom_in_disabled_64.png">icons/view_zoom_in_disabled_64.png</file>
+        <file alias="view_zoom_in_active_48.png">icons/view_zoom_in_active_48.png</file>
+        <file alias="view_zoom_in_active_64.png">icons/view_zoom_in_active_64.png</file>
+
+        <file alias="view_zoom_out_disabled_48.png">icons/view_zoom_out_disabled_48.png</file>
+        <file alias="view_zoom_out_disabled_64.png">icons/view_zoom_out_disabled_64.png</file>
+        <file alias="view_zoom_out_active_48.png">icons/view_zoom_out_active_48.png</file>
+        <file alias="view_zoom_out_active_64.png">icons/view_zoom_out_active_64.png</file>
+
+        <file alias="view_margins_disabled_48.png">icons/view_margins_disabled_48.png</file>
+        <file alias="view_margins_disabled_64.png">icons/view_margins_disabled_64.png</file>
+        <file alias="view_margins_active_48.png">icons/view_margins_active_48.png</file>
+        <file alias="view_margins_active_64.png">icons/view_margins_active_64.png</file>
+
+        <file alias="view_guides_disabled_48.png">icons/view_guides_disabled_48.png</file>
+        <file alias="view_guides_disabled_64.png">icons/view_guides_disabled_64.png</file>
+        <file alias="view_guides_active_48.png">icons/view_guides_active_48.png</file>
+        <file alias="view_guides_active_64.png">icons/view_guides_active_64.png</file>
+
+        <!-- Icons group B from Li Juan -->
+
+        <file alias="insert_table_disabled_48.png">icons/insert_table_disabled_48.png</file>
+        <file alias="insert_table_disabled_64.png">icons/insert_table_disabled_64.png</file>
+        <file alias="insert_table_active_48.png">icons/insert_table_active_48.png</file>
+        <file alias="insert_table_active_64.png">icons/insert_table_active_64.png</file>
+
+        <file alias="insert_image_disabled_48.png">icons/insert_image_disabled_48.png</file>
+        <file alias="insert_image_disabled_64.png">icons/insert_image_disabled_64.png</file>
+        <file alias="insert_image_active_48.png">icons/insert_image_active_48.png</file>
+        <file alias="insert_image_active_64.png">icons/insert_image_active_64.png</file>
+
+        <file alias="insert_page_break_disabled_48.png">icons/insert_page_break_disabled_48.png</file>
+        <file alias="insert_page_break_disabled_64.png">icons/insert_page_break_disabled_64.png</file>
+        <file alias="insert_page_break_active_48.png">icons/insert_page_break_active_48.png</file>
+        <file alias="insert_page_break_active_64.png">icons/insert_page_break_active_64.png</file>
+
+        <file alias="insert_plot_disabled_48.png">icons/insert_plot_disabled_48.png</file>
+        <file alias="insert_plot_disabled_64.png">icons/insert_plot_disabled_64.png</file>
+        <file alias="insert_plot_active_48.png">icons/insert_plot_active_48.png</file>
+        <file alias="insert_plot_active_64.png">icons/insert_plot_active_64.png</file>
+
+        <file alias="insert_value_field_disabled_48.png">icons/insert_value_field_disabled_48.png</file>
+        <file alias="insert_value_field_disabled_64.png">icons/insert_value_field_disabled_64.png</file>
+        <file alias="insert_value_field_active_48.png">icons/insert_value_field_active_48.png</file>
+        <file alias="insert_value_field_active_64.png">icons/insert_value_field_active_64.png</file>
+
+        <!-- Icons group C from Li Juan -->
+
+        <file alias="debug_run_disabled_48.png">icons/debug_run_disabled_48.png</file>
+        <file alias="debug_run_disabled_64.png">icons/debug_run_disabled_64.png</file>
+        <file alias="debug_run_active_48.png">icons/debug_run_active_48.png</file>
+        <file alias="debug_run_active_64.png">icons/debug_run_active_64.png</file>
+
+        <file alias="debug_pause_disabled_48.png">icons/debug_pause_disabled_48.png</file>
+        <file alias="debug_pause_disabled_64.png">icons/debug_pause_disabled_64.png</file>
+        <file alias="debug_pause_active_48.png">icons/debug_pause_active_48.png</file>
+        <file alias="debug_pause_active_64.png">icons/debug_pause_active_64.png</file>
+
+        <file alias="debug_stop_disabled_48.png">icons/debug_stop_disabled_48.png</file>
+        <file alias="debug_stop_disabled_64.png">icons/debug_stop_disabled_64.png</file>
+        <file alias="debug_stop_active_48.png">icons/debug_stop_active_48.png</file>
+        <file alias="debug_stop_active_64.png">icons/debug_stop_active_64.png</file>
+
+        <file alias="debug_step_disabled_48.png">icons/debug_step_disabled_48.png</file>
+        <file alias="debug_step_disabled_64.png">icons/debug_step_disabled_64.png</file>
+        <file alias="debug_step_active_48.png">icons/debug_step_active_48.png</file>
+        <file alias="debug_step_active_64.png">icons/debug_step_active_64.png</file>
+
+        <!-- Icons group D from Li Juan -->
+
+        <file alias="format_font_bold_disabled_48.png">icons/format_font_bold_disabled_48.png</file>
+        <file alias="format_font_bold_disabled_64.png">icons/format_font_bold_disabled_64.png</file>
+        <file alias="format_font_bold_active_48.png">icons/format_font_bold_active_48.png</file>
+        <file alias="format_font_bold_active_64.png">icons/format_font_bold_active_64.png</file>
+
+        <file alias="format_font_italic_disabled_48.png">icons/format_font_italic_disabled_48.png</file>
+        <file alias="format_font_italic_disabled_64.png">icons/format_font_italic_disabled_64.png</file>
+        <file alias="format_font_italic_active_48.png">icons/format_font_italic_active_48.png</file>
+        <file alias="format_font_italic_active_64.png">icons/format_font_italic_active_64.png</file>
+
+        <file alias="format_font_underline_disabled_48.png">icons/format_font_underline_disabled_48.png</file>
+        <file alias="format_font_underline_disabled_64.png">icons/format_font_underline_disabled_64.png</file>
+        <file alias="format_font_underline_active_48.png">icons/format_font_underline_active_48.png</file>
+        <file alias="format_font_underline_active_64.png">icons/format_font_underline_active_64.png</file>
+
+        <file alias="format_font_overline_disabled_48.png">icons/format_font_overline_disabled_48.png</file>
+        <file alias="format_font_overline_disabled_64.png">icons/format_font_overline_disabled_64.png</file>
+        <file alias="format_font_overline_active_48.png">icons/format_font_overline_active_48.png</file>
+        <file alias="format_font_overline_active_64.png">icons/format_font_overline_active_64.png</file>
+
+        <file alias="format_font_strikethrough_disabled_48.png">icons/format_font_strikethrough_disabled_48.png</file>
+        <file alias="format_font_strikethrough_disabled_64.png">icons/format_font_strikethrough_disabled_64.png</file>
+        <file alias="format_font_strikethrough_active_48.png">icons/format_font_strikethrough_active_48.png</file>
+        <file alias="format_font_strikethrough_active_64.png">icons/format_font_strikethrough_active_64.png</file>
+
+        <file alias="format_font_subscript_disabled_48.png">icons/format_font_subscript_disabled_48.png</file>
+        <file alias="format_font_subscript_disabled_64.png">icons/format_font_subscript_disabled_64.png</file>
+        <file alias="format_font_subscript_active_48.png">icons/format_font_subscript_active_48.png</file>
+        <file alias="format_font_subscript_active_64.png">icons/format_font_subscript_active_64.png</file>
+
+        <file alias="format_font_superscript_disabled_48.png">icons/format_font_superscript_disabled_48.png</file>
+        <file alias="format_font_superscript_disabled_64.png">icons/format_font_superscript_disabled_64.png</file>
+        <file alias="format_font_superscript_active_48.png">icons/format_font_superscript_active_48.png</file>
+        <file alias="format_font_superscript_active_64.png">icons/format_font_superscript_active_64.png</file>
+
+        <file alias="format_font_color_disabled_48.png">icons/format_font_color_disabled_48.png</file>
+        <file alias="format_font_color_disabled_64.png">icons/format_font_color_disabled_64.png</file>
+        <file alias="format_font_color_active_48.png">icons/format_font_color_active_48.png</file>
+        <file alias="format_font_color_active_64.png">icons/format_font_color_active_64.png</file>
+
+        <file alias="format_font_background_color_disabled_48.png">icons/format_font_background_color_disabled_48.png</file>
+        <file alias="format_font_background_color_disabled_64.png">icons/format_font_background_color_disabled_64.png</file>
+        <file alias="format_font_background_color_active_48.png">icons/format_font_background_color_active_48.png</file>
+        <file alias="format_font_background_color_active_64.png">icons/format_font_background_color_active_64.png</file>
+
+        <file alias="format_font_disabled_48.png">icons/format_font_disabled_48.png</file>
+        <file alias="format_font_disabled_64.png">icons/format_font_disabled_64.png</file>
+        <file alias="format_font_active_48.png">icons/format_font_active_48.png</file>
+        <file alias="format_font_active_64.png">icons/format_font_active_64.png</file>
+
+        <!-- Icons group E from Li Juan -->
+
+        <file alias="format_block_left_align_disabled_48.png">icons/format_block_left_align_disabled_48.png</file>
+        <file alias="format_block_left_align_disabled_64.png">icons/format_block_left_align_disabled_64.png</file>
+        <file alias="format_block_left_align_active_48.png">icons/format_block_left_align_active_48.png</file>
+        <file alias="format_block_left_align_active_64.png">icons/format_block_left_align_active_64.png</file>
+        <file alias="format_block_left_align_active_128.png">icons/format_block_left_align_active_128.png</file>
+
+        <file alias="format_block_center_disabled_48.png">icons/format_block_center_disabled_48.png</file>
+        <file alias="format_block_center_disabled_64.png">icons/format_block_center_disabled_64.png</file>
+        <file alias="format_block_center_active_48.png">icons/format_block_center_active_48.png</file>
+        <file alias="format_block_center_active_64.png">icons/format_block_center_active_64.png</file>
+        <file alias="format_block_center_active_128.png">icons/format_block_center_active_128.png</file>
+
+        <file alias="format_block_right_align_disabled_48.png">icons/format_block_right_align_disabled_48.png</file>
+        <file alias="format_block_right_align_disabled_64.png">icons/format_block_right_align_disabled_64.png</file>
+        <file alias="format_block_right_align_active_48.png">icons/format_block_right_align_active_48.png</file>
+        <file alias="format_block_right_align_active_64.png">icons/format_block_right_align_active_64.png</file>
+        <file alias="format_block_right_align_active_128.png">icons/format_block_right_align_active_128.png</file>
+
+        <file alias="format_block_justified_disabled_48.png">icons/format_block_justified_disabled_48.png</file>
+        <file alias="format_block_justified_disabled_64.png">icons/format_block_justified_disabled_64.png</file>
+        <file alias="format_block_justified_active_48.png">icons/format_block_justified_active_48.png</file>
+        <file alias="format_block_justified_active_64.png">icons/format_block_justified_active_64.png</file>
+        <file alias="format_block_justified_active_128.png">icons/format_block_justified_active_128.png</file>
+
+        <file alias="format_block_decrease_indentation_disabled_48.png">icons/format_block_decrease_indentation_disabled_48.png</file>
+        <file alias="format_block_decrease_indentation_disabled_64.png">icons/format_block_decrease_indentation_disabled_64.png</file>
+        <file alias="format_block_decrease_indentation_active_48.png">icons/format_block_decrease_indentation_active_48.png</file>
+        <file alias="format_block_decrease_indentation_active_64.png">icons/format_block_decrease_indentation_active_64.png</file>
+
+        <file alias="format_block_increase_indentation_disabled_48.png">icons/format_block_increase_indentation_disabled_48.png</file>
+        <file alias="format_block_increase_indentation_disabled_64.png">icons/format_block_increase_indentation_disabled_64.png</file>
+        <file alias="format_block_increase_indentation_active_48.png">icons/format_block_increase_indentation_active_48.png</file>
+        <file alias="format_block_increase_indentation_active_64.png">icons/format_block_increase_indentation_active_64.png</file>
+
+        <file alias="format_block_disabled_48.png">icons/format_block_disabled_48.png</file>
+        <file alias="format_block_disabled_64.png">icons/format_block_disabled_64.png</file>
+        <file alias="format_block_active_48.png">icons/format_block_active_48.png</file>
+        <file alias="format_block_active_64.png">icons/format_block_active_64.png</file>
+
+        <!-- Icons group F from Li Juan -->
+
+        <file alias="format_list_bullet_number_style_disabled_48.png">icons/format_list_bullet_number_style_disabled_48.png</file>
+        <file alias="format_list_bullet_number_style_disabled_64.png">icons/format_list_bullet_number_style_disabled_64.png</file>
+        <file alias="format_list_bullet_number_style_active_48.png">icons/format_list_bullet_number_style_active_48.png</file>
+        <file alias="format_list_bullet_number_style_active_64.png">icons/format_list_bullet_number_style_active_64.png</file>
+
+        <file alias="format_list_show_hide_bullets_numbers_disabled_48.png">icons/format_list_show_hide_bullets_numbers_disabled_48.png</file>
+        <file alias="format_list_show_hide_bullets_numbers_disabled_64.png">icons/format_list_show_hide_bullets_numbers_disabled_64.png</file>
+        <file alias="format_list_show_hide_bullets_numbers_active_48.png">icons/format_list_show_hide_bullets_numbers_active_48.png</file>
+        <file alias="format_list_show_hide_bullets_numbers_active_64.png">icons/format_list_show_hide_bullets_numbers_active_64.png</file>
+
+        <file alias="format_list_bullet_number_font_disabled_48.png">icons/format_list_bullet_number_font_disabled_48.png</file>
+        <file alias="format_list_bullet_number_font_disabled_64.png">icons/format_list_bullet_number_font_disabled_64.png</file>
+        <file alias="format_list_bullet_number_font_active_48.png">icons/format_list_bullet_number_font_active_48.png</file>
+        <file alias="format_list_bullet_number_font_active_64.png">icons/format_list_bullet_number_font_active_64.png</file>
+
+        <file alias="format_list_disabled_48.png">icons/format_list_disabled_48.png</file>
+        <file alias="format_list_disabled_64.png">icons/format_list_disabled_64.png</file>
+        <file alias="format_list_active_48.png">icons/format_list_active_48.png</file>
+        <file alias="format_list_active_64.png">icons/format_list_active_64.png</file>
+
+        <!-- Icons group G from Li Juan -->
+
+        <file alias="format_page_orientation_portrait_disabled_48.png">icons/format_page_orientation_portrait_disabled_48.png</file>
+        <file alias="format_page_orientation_portrait_disabled_64.png">icons/format_page_orientation_portrait_disabled_64.png</file>
+        <file alias="format_page_orientation_portrait_active_48.png">icons/format_page_orientation_portrait_active_48.png</file>
+        <file alias="format_page_orientation_portrait_active_64.png">icons/format_page_orientation_portrait_active_64.png</file>
+        <file alias="format_page_orientation_portrait_active_128.png">icons/format_page_orientation_portrait_active_128.png</file>
+
+        <file alias="format_page_orientation_landscape_disabled_48.png">icons/format_page_orientation_landscape_disabled_48.png</file>
+        <file alias="format_page_orientation_landscape_disabled_64.png">icons/format_page_orientation_landscape_disabled_64.png</file>
+        <file alias="format_page_orientation_landscape_active_48.png">icons/format_page_orientation_landscape_active_48.png</file>
+        <file alias="format_page_orientation_landscape_active_64.png">icons/format_page_orientation_landscape_active_64.png</file>
+        <file alias="format_page_orientation_landscape_active_128.png">icons/format_page_orientation_landscape_active_128.png</file>
+
+        <file alias="format_page_orientation_undefined_disabled_48.png">icons/format_page_orientation_undefined_disabled_48.png</file>
+        <file alias="format_page_orientation_undefined_disabled_64.png">icons/format_page_orientation_undefined_disabled_64.png</file>
+        <file alias="format_page_orientation_undefined_active_48.png">icons/format_page_orientation_undefined_active_48.png</file>
+        <file alias="format_page_orientation_undefined_active_64.png">icons/format_page_orientation_undefined_active_64.png</file>
+
+        <file alias="format_page_size_disabled_48.png">icons/format_page_size_disabled_48.png</file>
+        <file alias="format_page_size_disabled_64.png">icons/format_page_size_disabled_64.png</file>
+        <file alias="format_page_size_active_48.png">icons/format_page_size_active_48.png</file>
+        <file alias="format_page_size_active_64.png">icons/format_page_size_active_64.png</file>
+
+        <file alias="format_page_disabled_48.png">icons/format_page_disabled_48.png</file>
+        <file alias="format_page_disabled_64.png">icons/format_page_disabled_64.png</file>
+        <file alias="format_page_active_48.png">icons/format_page_active_48.png</file>
+        <file alias="format_page_active_64.png">icons/format_page_active_64.png</file>
+
+        <file alias="format_page_margins_97_127.png">icons/format_page_margins_97_127.png</file>
+
+        <!-- Icons group H from Li Juan -->
+
+        <file alias="format_table_left_align_disabled_48.png">icons/format_table_left_align_disabled_48.png</file>
+        <file alias="format_table_left_align_disabled_64.png">icons/format_table_left_align_disabled_64.png</file>
+        <file alias="format_table_left_align_active_48.png">icons/format_table_left_align_active_48.png</file>
+        <file alias="format_table_left_align_active_64.png">icons/format_table_left_align_active_64.png</file>
+        <file alias="format_table_left_align_active_128.png">icons/format_table_left_align_active_128.png</file>
+
+        <file alias="format_table_center_disabled_48.png">icons/format_table_center_disabled_48.png</file>
+        <file alias="format_table_center_disabled_64.png">icons/format_table_center_disabled_64.png</file>
+        <file alias="format_table_center_active_48.png">icons/format_table_center_active_48.png</file>
+        <file alias="format_table_center_active_64.png">icons/format_table_center_active_64.png</file>
+        <file alias="format_table_center_active_128.png">icons/format_table_center_active_128.png</file>
+
+        <file alias="format_table_right_align_disabled_48.png">icons/format_table_right_align_disabled_48.png</file>
+        <file alias="format_table_right_align_disabled_64.png">icons/format_table_right_align_disabled_64.png</file>
+        <file alias="format_table_right_align_active_48.png">icons/format_table_right_align_active_48.png</file>
+        <file alias="format_table_right_align_active_64.png">icons/format_table_right_align_active_64.png</file>
+        <file alias="format_table_right_align_active_128.png">icons/format_table_right_align_active_128.png</file>
+
+        <file alias="format_table_default_cell_color_disabled_48.png">icons/format_table_default_cell_color_disabled_48.png</file>
+        <file alias="format_table_default_cell_color_disabled_64.png">icons/format_table_default_cell_color_disabled_64.png</file>
+        <file alias="format_table_default_cell_color_active_48.png">icons/format_table_default_cell_color_active_48.png</file>
+        <file alias="format_table_default_cell_color_active_64.png">icons/format_table_default_cell_color_active_64.png</file>
+
+        <file alias="format_table_default_line_style_disabled_48.png">icons/format_table_default_line_style_disabled_48.png</file>
+        <file alias="format_table_default_line_style_disabled_64.png">icons/format_table_default_line_style_disabled_64.png</file>
+        <file alias="format_table_default_line_style_active_48.png">icons/format_table_default_line_style_active_48.png</file>
+        <file alias="format_table_default_line_style_active_64.png">icons/format_table_default_line_style_active_64.png</file>
+
+        <file alias="format_table_disabled_48.png">icons/format_table_disabled_48.png</file>
+        <file alias="format_table_disabled_64.png">icons/format_table_disabled_64.png</file>
+        <file alias="format_table_active_48.png">icons/format_table_active_48.png</file>
+        <file alias="format_table_active_64.png">icons/format_table_active_64.png</file>
+
+        <!-- Icons group I from Li Juan -->
+
+        <file alias="table_add_rows_disabled_48.png">icons/table_add_rows_disabled_48.png</file>
+        <file alias="table_add_rows_disabled_64.png">icons/table_add_rows_disabled_64.png</file>
+        <file alias="table_add_rows_active_48.png">icons/table_add_rows_active_48.png</file>
+        <file alias="table_add_rows_active_64.png">icons/table_add_rows_active_64.png</file>
+
+        <file alias="table_add_columns_disabled_48.png">icons/table_add_columns_disabled_48.png</file>
+        <file alias="table_add_columns_disabled_64.png">icons/table_add_columns_disabled_64.png</file>
+        <file alias="table_add_columns_active_48.png">icons/table_add_columns_active_48.png</file>
+        <file alias="table_add_columns_active_64.png">icons/table_add_columns_active_64.png</file>
+
+        <file alias="table_remove_rows_disabled_48.png">icons/table_remove_rows_disabled_48.png</file>
+        <file alias="table_remove_rows_disabled_64.png">icons/table_remove_rows_disabled_64.png</file>
+        <file alias="table_remove_rows_active_48.png">icons/table_remove_rows_active_48.png</file>
+        <file alias="table_remove_rows_active_64.png">icons/table_remove_rows_active_64.png</file>
+
+        <file alias="table_remove_columns_disabled_48.png">icons/table_remove_columns_disabled_48.png</file>
+        <file alias="table_remove_columns_disabled_64.png">icons/table_remove_columns_disabled_64.png</file>
+        <file alias="table_remove_columns_active_48.png">icons/table_remove_columns_active_48.png</file>
+        <file alias="table_remove_columns_active_64.png">icons/table_remove_columns_active_64.png</file>
+
+        <file alias="table_remove_disabled_48.png">icons/table_remove_disabled_48.png</file>
+        <file alias="table_remove_disabled_64.png">icons/table_remove_disabled_64.png</file>
+        <file alias="table_remove_active_48.png">icons/table_remove_active_48.png</file>
+        <file alias="table_remove_active_64.png">icons/table_remove_active_64.png</file>
+
+        <file alias="table_column_line_style_disabled_48.png">icons/table_column_line_style_disabled_48.png</file>
+        <file alias="table_column_line_style_disabled_64.png">icons/table_column_line_style_disabled_64.png</file>
+        <file alias="table_column_line_style_active_48.png">icons/table_column_line_style_active_48.png</file>
+        <file alias="table_column_line_style_active_64.png">icons/table_column_line_style_active_64.png</file>
+
+        <file alias="table_row_line_style_disabled_48.png">icons/table_row_line_style_disabled_48.png</file>
+        <file alias="table_row_line_style_disabled_64.png">icons/table_row_line_style_disabled_64.png</file>
+        <file alias="table_row_line_style_active_48.png">icons/table_row_line_style_active_48.png</file>
+        <file alias="table_row_line_style_active_64.png">icons/table_row_line_style_active_64.png</file>
+
+        <file alias="table_column_color_disabled_48.png">icons/table_column_color_disabled_48.png</file>
+        <file alias="table_column_color_disabled_64.png">icons/table_column_color_disabled_64.png</file>
+        <file alias="table_column_color_active_48.png">icons/table_column_color_active_48.png</file>
+        <file alias="table_column_color_active_64.png">icons/table_column_color_active_64.png</file>
+
+        <file alias="table_row_color_disabled_48.png">icons/table_row_color_disabled_48.png</file>
+        <file alias="table_row_color_disabled_64.png">icons/table_row_color_disabled_64.png</file>
+        <file alias="table_row_color_active_48.png">icons/table_row_color_active_48.png</file>
+        <file alias="table_row_color_active_64.png">icons/table_row_color_active_64.png</file>
+
+        <file alias="table_cell_color_disabled_48.png">icons/table_cell_color_disabled_48.png</file>
+        <file alias="table_cell_color_disabled_64.png">icons/table_cell_color_disabled_64.png</file>
+        <file alias="table_cell_color_active_48.png">icons/table_cell_color_active_48.png</file>
+        <file alias="table_cell_color_active_64.png">icons/table_cell_color_active_64.png</file>
+
+        <file alias="table_merge_cells_disabled_48.png">icons/table_merge_cells_disabled_48.png</file>
+        <file alias="table_merge_cells_disabled_64.png">icons/table_merge_cells_disabled_64.png</file>
+        <file alias="table_merge_cells_active_48.png">icons/table_merge_cells_active_48.png</file>
+        <file alias="table_merge_cells_active_64.png">icons/table_merge_cells_active_64.png</file>
+
+        <!-- Icons group J from Li Juan -->
+
+        <file alias="format_image_disabled_48.png">icons/format_image_disabled_48.png</file>
+        <file alias="format_image_disabled_64.png">icons/format_image_disabled_64.png</file>
+        <file alias="format_image_active_48.png">icons/format_image_active_48.png</file>
+        <file alias="format_image_active_64.png">icons/format_image_active_64.png</file>
+
+        <file alias="format_image_rotate_disabled_48.png">icons/format_image_rotate_disabled_48.png</file>
+        <file alias="format_image_rotate_disabled_64.png">icons/format_image_rotate_disabled_64.png</file>
+        <file alias="format_image_rotate_active_48.png">icons/format_image_rotate_active_48.png</file>
+        <file alias="format_image_rotate_active_64.png">icons/format_image_rotate_active_64.png</file>
+
+        <file alias="format_image_aspect_ratio_disabled_48.png">icons/format_image_aspect_ratio_disabled_48.png</file>
+        <file alias="format_image_aspect_ratio_disabled_64.png">icons/format_image_aspect_ratio_disabled_64.png</file>
+        <file alias="format_image_aspect_ratio_active_48.png">icons/format_image_aspect_ratio_active_48.png</file>
+        <file alias="format_image_aspect_ratio_active_64.png">icons/format_image_aspect_ratio_active_64.png</file>
+
+        <file alias="format_image_no_horizontal_scaling_disabled_48.png">icons/format_image_no_horizontal_scaling_disabled_48.png</file>
+        <file alias="format_image_no_horizontal_scaling_disabled_64.png">icons/format_image_no_horizontal_scaling_disabled_64.png</file>
+        <file alias="format_image_no_horizontal_scaling_active_48.png">icons/format_image_no_horizontal_scaling_active_48.png</file>
+        <file alias="format_image_no_horizontal_scaling_active_64.png">icons/format_image_no_horizontal_scaling_active_64.png</file>
+
+        <file alias="format_image_no_vertical_scaling_disabled_48.png">icons/format_image_no_vertical_scaling_disabled_48.png</file>
+        <file alias="format_image_no_vertical_scaling_disabled_64.png">icons/format_image_no_vertical_scaling_disabled_64.png</file>
+        <file alias="format_image_no_vertical_scaling_active_48.png">icons/format_image_no_vertical_scaling_active_48.png</file>
+        <file alias="format_image_no_vertical_scaling_active_64.png">icons/format_image_no_vertical_scaling_active_64.png</file>
+
+        <file alias="format_image_scale_horizontal_dimension_disabled_48.png">icons/format_image_scale_horizontal_dimension_disabled_48.png</file>
+        <file alias="format_image_scale_horizontal_dimension_disabled_64.png">icons/format_image_scale_horizontal_dimension_disabled_64.png</file>
+        <file alias="format_image_scale_horizontal_dimension_active_48.png">icons/format_image_scale_horizontal_dimension_active_48.png</file>
+        <file alias="format_image_scale_horizontal_dimension_active_64.png">icons/format_image_scale_horizontal_dimension_active_64.png</file>
+
+        <file alias="format_image_scale_vertical_dimension_disabled_48.png">icons/format_image_scale_vertical_dimension_disabled_48.png</file>
+        <file alias="format_image_scale_vertical_dimension_disabled_64.png">icons/format_image_scale_vertical_dimension_disabled_64.png</file>
+        <file alias="format_image_scale_vertical_dimension_active_48.png">icons/format_image_scale_vertical_dimension_active_48.png</file>
+        <file alias="format_image_scale_vertical_dimension_active_64.png">icons/format_image_scale_vertical_dimension_active_64.png</file>
+
+        <file alias="format_image_scale_unknown_disabled_48.png">icons/format_image_scale_unknown_disabled_48.png</file>
+        <file alias="format_image_scale_unknown_disabled_64.png">icons/format_image_scale_unknown_disabled_64.png</file>
+        <file alias="format_image_scale_unknown_active_48.png">icons/format_image_scale_unknown_active_48.png</file>
+        <file alias="format_image_scale_unknown_active_64.png">icons/format_image_scale_unknown_active_64.png</file>
+
+        <file alias="format_image_scale_percentage_disabled_48.png">icons/format_image_scale_percentage_disabled_48.png</file>
+        <file alias="format_image_scale_percentage_disabled_64.png">icons/format_image_scale_percentage_disabled_64.png</file>
+        <file alias="format_image_scale_percentage_active_48.png">icons/format_image_scale_percentage_active_48.png</file>
+        <file alias="format_image_scale_percentage_active_64.png">icons/format_image_scale_percentage_active_64.png</file>
+
+        <file alias="format_image_no_rotation_active_48.png">icons/format_image_no_rotation_active_48.png</file>
+        <file alias="format_image_no_rotation_active_64.png">icons/format_image_no_rotation_active_64.png</file>
+        <file alias="format_image_no_rotation_active_128.png">icons/format_image_no_rotation_active_128.png</file>
+
+        <file alias="format_image_rotate_cw_active_48.png">icons/format_image_rotate_cw_active_48.png</file>
+        <file alias="format_image_rotate_cw_active_64.png">icons/format_image_rotate_cw_active_64.png</file>
+        <file alias="format_image_rotate_cw_active_128.png">icons/format_image_rotate_cw_active_128.png</file>
+
+        <file alias="format_image_rotate_flip_active_48.png">icons/format_image_rotate_flip_active_48.png</file>
+        <file alias="format_image_rotate_flip_active_64.png">icons/format_image_rotate_flip_active_64.png</file>
+        <file alias="format_image_rotate_flip_active_128.png">icons/format_image_rotate_flip_active_128.png</file>
+
+        <file alias="format_image_rotate_ccw_active_48.png">icons/format_image_rotate_ccw_active_48.png</file>
+        <file alias="format_image_rotate_ccw_active_64.png">icons/format_image_rotate_ccw_active_64.png</file>
+        <file alias="format_image_rotate_ccw_active_128.png">icons/format_image_rotate_ccw_active_128.png</file>
+
+        <!-- Icons group K from Li Juan -->
+
+        <file alias="format_operator_disabled_48.png">icons/format_operator_disabled_48.png</file>
+        <file alias="format_operator_disabled_64.png">icons/format_operator_disabled_64.png</file>
+        <file alias="format_operator_active_48.png">icons/format_operator_active_48.png</file>
+        <file alias="format_operator_active_64.png">icons/format_operator_active_64.png</file>
+
+        <file alias="format_operator_brace_conditional_disabled_48.png">icons/format_operator_brace_conditional_disabled_48.png</file>
+        <file alias="format_operator_brace_conditional_disabled_64.png">icons/format_operator_brace_conditional_disabled_64.png</file>
+        <file alias="format_operator_brace_conditional_active_48.png">icons/format_operator_brace_conditional_active_48.png</file>
+        <file alias="format_operator_brace_conditional_active_64.png">icons/format_operator_brace_conditional_active_64.png</file>
+
+        <file alias="format_operator_multiplication_disabled_48.png">icons/format_operator_multiplication_disabled_48.png</file>
+        <file alias="format_operator_multiplication_disabled_64.png">icons/format_operator_multiplication_disabled_64.png</file>
+        <file alias="format_operator_multiplication_active_48.png">icons/format_operator_multiplication_active_48.png</file>
+        <file alias="format_operator_multiplication_active_64.png">icons/format_operator_multiplication_active_64.png</file>
+
+        <file alias="format_operator_division_disabled_48.png">icons/format_operator_division_disabled_48.png</file>
+        <file alias="format_operator_division_disabled_64.png">icons/format_operator_division_disabled_64.png</file>
+        <file alias="format_operator_division_active_48.png">icons/format_operator_division_active_48.png</file>
+        <file alias="format_operator_division_active_64.png">icons/format_operator_division_active_64.png</file>
+
+        <file alias="format_operator_logical_not_disabled_48.png">icons/format_operator_logical_not_disabled_48.png</file>
+        <file alias="format_operator_logical_not_disabled_64.png">icons/format_operator_logical_not_disabled_64.png</file>
+        <file alias="format_operator_logical_not_active_48.png">icons/format_operator_logical_not_active_48.png</file>
+        <file alias="format_operator_logical_not_active_64.png">icons/format_operator_logical_not_active_64.png</file>
+
+        <file alias="format_operator_parenthesis_disabled_48.png">icons/format_operator_parenthesis_disabled_48.png</file>
+        <file alias="format_operator_parenthesis_disabled_64.png">icons/format_operator_parenthesis_disabled_64.png</file>
+        <file alias="format_operator_parenthesis_active_48.png">icons/format_operator_parenthesis_active_48.png</file>
+        <file alias="format_operator_parenthesis_active_64.png">icons/format_operator_parenthesis_active_64.png</file>
+
+        <file alias="matrix_insert_column_disabled_48.png">icons/matrix_insert_column_disabled_48.png</file>
+        <file alias="matrix_insert_column_disabled_64.png">icons/matrix_insert_column_disabled_64.png</file>
+        <file alias="matrix_insert_column_active_48.png">icons/matrix_insert_column_active_48.png</file>
+        <file alias="matrix_insert_column_active_64.png">icons/matrix_insert_column_active_64.png</file>
+
+        <file alias="matrix_insert_row_disabled_48.png">icons/matrix_insert_row_disabled_48.png</file>
+        <file alias="matrix_insert_row_disabled_64.png">icons/matrix_insert_row_disabled_64.png</file>
+        <file alias="matrix_insert_row_active_48.png">icons/matrix_insert_row_active_48.png</file>
+        <file alias="matrix_insert_row_active_64.png">icons/matrix_insert_row_active_64.png</file>
+
+        <file alias="matrix_remove_column_disabled_48.png">icons/matrix_remove_column_disabled_48.png</file>
+        <file alias="matrix_remove_column_disabled_64.png">icons/matrix_remove_column_disabled_64.png</file>
+        <file alias="matrix_remove_column_active_48.png">icons/matrix_remove_column_active_48.png</file>
+        <file alias="matrix_remove_column_active_64.png">icons/matrix_remove_column_active_64.png</file>
+
+        <file alias="matrix_remove_row_disabled_48.png">icons/matrix_remove_row_disabled_48.png</file>
+        <file alias="matrix_remove_row_disabled_64.png">icons/matrix_remove_row_disabled_64.png</file>
+        <file alias="matrix_remove_row_active_48.png">icons/matrix_remove_row_active_48.png</file>
+        <file alias="matrix_remove_row_active_64.png">icons/matrix_remove_row_active_64.png</file>
+
+        <!-- Icons group L from Li Juan -->
+
+        <file alias="format_value_field_disabled_48.png">icons/format_value_field_disabled_48.png</file>
+        <file alias="format_value_field_disabled_64.png">icons/format_value_field_disabled_64.png</file>
+        <file alias="format_value_field_active_48.png">icons/format_value_field_active_48.png</file>
+        <file alias="format_value_field_active_64.png">icons/format_value_field_active_64.png</file>
+
+        <file alias="format_value_field_imaginary_unit_disabled_48.png">icons/format_value_field_imaginary_unit_disabled_48.png</file>
+        <file alias="format_value_field_imaginary_unit_disabled_64.png">icons/format_value_field_imaginary_unit_disabled_64.png</file>
+        <file alias="format_value_field_imaginary_unit_active_48.png">icons/format_value_field_imaginary_unit_active_48.png</file>
+        <file alias="format_value_field_imaginary_unit_active_64.png">icons/format_value_field_imaginary_unit_active_64.png</file>
+
+        <!-- Icons group M from Li Juan -->
+
+        <file alias="file_modified_16.png">icons/file_modified_48.png</file>
+        <file alias="file_modified_24.png">icons/file_modified_64.png</file>
+
+        <file alias="move_down_disabled_48.png">icons/move_down_disabled_48.png</file>
+        <file alias="move_down_disabled_64.png">icons/move_down_disabled_64.png</file>
+        <file alias="move_down_active_48.png">icons/move_down_active_48.png</file>
+        <file alias="move_down_active_64.png">icons/move_down_active_64.png</file>
+
+        <file alias="move_up_disabled_48.png">icons/move_up_disabled_48.png</file>
+        <!-- file alias="move_up_disabled_64.png">icons/move_up_disabled_64.png</file -->
+        <file alias="move_up_active_48.png">icons/move_up_active_48.png</file>
+        <file alias="move_up_active_64.png">icons/move_up_active_64.png</file>
+
+        <file alias="add_entry_disabled_48.png">icons/add_entry_disabled_48.png</file>
+        <file alias="add_entry_disabled_64.png">icons/add_entry_disabled_64.png</file>
+        <file alias="add_entry_active_48.png">icons/add_entry_active_48.png</file>
+        <file alias="add_entry_active_64.png">icons/add_entry_active_64.png</file>
+
+        <file alias="remove_entry_disabled_48.png">icons/remove_entry_disabled_48.png</file>
+        <file alias="remove_entry_disabled_64.png">icons/remove_entry_disabled_64.png</file>
+        <file alias="remove_entry_active_48.png">icons/remove_entry_active_48.png</file>
+        <file alias="remove_entry_active_64.png">icons/remove_entry_active_64.png</file>
+
+        <!-- Math Icons -->
+
+        <file alias="pi_16.png">icons/pi_16.png</file>
+        <file alias="pi_32.png">icons/pi_32.png</file>
+        <file alias="pi_48.png">icons/pi_48.png</file>
+        <file alias="pi_64.png">icons/pi_64.png</file>
+        <file alias="pi_128.png">icons/pi_128.png</file>
+
+        <file alias="eulers_number_16.png">icons/eulers_number_16.png</file>
+        <file alias="eulers_number_32.png">icons/eulers_number_32.png</file>
+        <file alias="eulers_number_48.png">icons/eulers_number_48.png</file>
+        <file alias="eulers_number_64.png">icons/eulers_number_64.png</file>
+        <file alias="eulers_number_128.png">icons/eulers_number_128.png</file>
+
+        <file alias="epsilon_16.png">icons/epsilon_16.png</file>
+        <file alias="epsilon_32.png">icons/epsilon_32.png</file>
+        <file alias="epsilon_48.png">icons/epsilon_48.png</file>
+        <file alias="epsilon_64.png">icons/epsilon_64.png</file>
+        <file alias="epsilon_128.png">icons/epsilon_128.png</file>
+
+        <file alias="infinity_16.png">icons/infinity_16.png</file>
+        <file alias="infinity_32.png">icons/infinity_32.png</file>
+        <file alias="infinity_48.png">icons/infinity_48.png</file>
+        <file alias="infinity_64.png">icons/infinity_64.png</file>
+        <file alias="infinity_128.png">icons/infinity_128.png</file>
+
+        <file alias="null_set_16.png">icons/null_set_16.png</file>
+        <file alias="null_set_32.png">icons/null_set_32.png</file>
+        <file alias="null_set_48.png">icons/null_set_48.png</file>
+        <file alias="null_set_64.png">icons/null_set_64.png</file>
+        <file alias="null_set_128.png">icons/null_set_128.png</file>
+
+        <file alias="assignment_operator_32.png">icons/assignment_operator_32.png</file>
+        <file alias="assignment_operator_48.png">icons/assignment_operator_48.png</file>
+        <file alias="assignment_operator_64.png">icons/assignment_operator_64.png</file>
+        <file alias="assignment_operator_96.png">icons/assignment_operator_96.png</file>
+        <file alias="assignment_operator_128.png">icons/assignment_operator_128.png</file>
+
+        <file alias="variable_16.png">icons/variable_16.png</file>
+        <file alias="variable_24.png">icons/variable_24.png</file>
+        <file alias="variable_32.png">icons/variable_32.png</file>
+        <file alias="variable_48.png">icons/variable_48.png</file>
+        <file alias="variable_64.png">icons/variable_64.png</file>
+        <file alias="variable_128.png">icons/variable_128.png</file>
+
+        <file alias="element_of_set_32.png">icons/element_of_set_32.png</file>
+        <file alias="element_of_set_48.png">icons/element_of_set_48.png</file>
+        <file alias="element_of_set_64.png">icons/element_of_set_64.png</file>
+        <file alias="element_of_set_96.png">icons/element_of_set_96.png</file>
+        <file alias="element_of_set_128.png">icons/element_of_set_128.png</file>
+
+        <file alias="boolean_type_16.png">icons/boolean_type_16.png</file>
+        <file alias="boolean_type_24.png">icons/boolean_type_24.png</file>
+        <file alias="boolean_type_32.png">icons/boolean_type_32.png</file>
+        <file alias="boolean_type_48.png">icons/boolean_type_48.png</file>
+        <file alias="boolean_type_64.png">icons/boolean_type_64.png</file>
+        <file alias="boolean_type_128.png">icons/boolean_type_128.png</file>
+
+        <file alias="integer_type_16.png">icons/integer_type_16.png</file>
+        <file alias="integer_type_24.png">icons/integer_type_24.png</file>
+        <file alias="integer_type_32.png">icons/integer_type_32.png</file>
+        <file alias="integer_type_48.png">icons/integer_type_48.png</file>
+        <file alias="integer_type_64.png">icons/integer_type_64.png</file>
+        <file alias="integer_type_128.png">icons/integer_type_128.png</file>
+
+        <file alias="real_type_16.png">icons/real_type_16.png</file>
+        <file alias="real_type_24.png">icons/real_type_24.png</file>
+        <file alias="real_type_32.png">icons/real_type_32.png</file>
+        <file alias="real_type_48.png">icons/real_type_48.png</file>
+        <file alias="real_type_64.png">icons/real_type_64.png</file>
+        <file alias="real_type_128.png">icons/real_type_128.png</file>
+
+        <file alias="complex_type_16.png">icons/complex_type_16.png</file>
+        <file alias="complex_type_24.png">icons/complex_type_24.png</file>
+        <file alias="complex_type_32.png">icons/complex_type_32.png</file>
+        <file alias="complex_type_48.png">icons/complex_type_48.png</file>
+        <file alias="complex_type_64.png">icons/complex_type_64.png</file>
+        <file alias="complex_type_128.png">icons/complex_type_128.png</file>
+
+        <file alias="addition_operator_32.png">icons/addition_operator_32.png</file>
+        <file alias="addition_operator_48.png">icons/addition_operator_48.png</file>
+        <file alias="addition_operator_64.png">icons/addition_operator_64.png</file>
+        <file alias="addition_operator_96.png">icons/addition_operator_96.png</file>
+        <file alias="addition_operator_128.png">icons/addition_operator_128.png</file>
+
+        <file alias="subtraction_operator_32.png">icons/subtraction_operator_32.png</file>
+        <file alias="subtraction_operator_48.png">icons/subtraction_operator_48.png</file>
+        <file alias="subtraction_operator_64.png">icons/subtraction_operator_64.png</file>
+        <file alias="subtraction_operator_96.png">icons/subtraction_operator_96.png</file>
+        <file alias="subtraction_operator_128.png">icons/subtraction_operator_128.png</file>
+
+        <file alias="multiplication_operator_32.png">icons/multiplication_operator_32.png</file>
+        <file alias="multiplication_operator_48.png">icons/multiplication_operator_48.png</file>
+        <file alias="multiplication_operator_64.png">icons/multiplication_operator_64.png</file>
+        <file alias="multiplication_operator_96.png">icons/multiplication_operator_96.png</file>
+        <file alias="multiplication_operator_128.png">icons/multiplication_operator_128.png</file>
+
+        <file alias="division_operator_32.png">icons/division_operator_32.png</file>
+        <file alias="division_operator_48.png">icons/division_operator_48.png</file>
+        <file alias="division_operator_64.png">icons/division_operator_64.png</file>
+        <file alias="division_operator_96.png">icons/division_operator_96.png</file>
+        <file alias="division_operator_128.png">icons/division_operator_128.png</file>
+
+        <file alias="fraction_operator_24.png">icons/fraction_operator_24.png</file>
+        <file alias="fraction_operator_32.png">icons/fraction_operator_32.png</file>
+        <file alias="fraction_operator_48.png">icons/fraction_operator_48.png</file>
+        <file alias="fraction_operator_64.png">icons/fraction_operator_64.png</file>
+        <file alias="fraction_operator_128.png">icons/fraction_operator_128.png</file>
+
+        <file alias="unary_plus_operator_16.png">icons/unary_plus_operator_16.png</file>
+        <file alias="unary_plus_operator_32.png">icons/unary_plus_operator_32.png</file>
+        <file alias="unary_plus_operator_48.png">icons/unary_plus_operator_48.png</file>
+        <file alias="unary_plus_operator_64.png">icons/unary_plus_operator_64.png</file>
+        <file alias="unary_plus_operator_128.png">icons/unary_plus_operator_128.png</file>
+
+        <file alias="unary_minus_operator_16.png">icons/unary_minus_operator_16.png</file>
+        <file alias="unary_minus_operator_32.png">icons/unary_minus_operator_32.png</file>
+        <file alias="unary_minus_operator_48.png">icons/unary_minus_operator_48.png</file>
+        <file alias="unary_minus_operator_64.png">icons/unary_minus_operator_64.png</file>
+        <file alias="unary_minus_operator_128.png">icons/unary_minus_operator_128.png</file>
+
+        <file alias="parenthesis_16.png">icons/parenthesis_16.png</file>
+        <file alias="parenthesis_24.png">icons/parenthesis_24.png</file>
+        <file alias="parenthesis_32.png">icons/parenthesis_32.png</file>
+        <file alias="parenthesis_48.png">icons/parenthesis_48.png</file>
+        <file alias="parenthesis_64.png">icons/parenthesis_64.png</file>
+        <file alias="parenthesis_128.png">icons/parenthesis_128.png</file>
+
+        <file alias="brackets_16.png">icons/brackets_16.png</file>
+        <file alias="brackets_24.png">icons/brackets_24.png</file>
+        <file alias="brackets_32.png">icons/brackets_32.png</file>
+        <file alias="brackets_48.png">icons/brackets_48.png</file>
+        <file alias="brackets_64.png">icons/brackets_64.png</file>
+        <file alias="brackets_128.png">icons/brackets_128.png</file>
+
+        <file alias="braces_128.png">icons/braces_128.png</file>
+        <file alias="braces_16.png">icons/braces_16.png</file>
+        <file alias="braces_24.png">icons/braces_24.png</file>
+        <file alias="braces_32.png">icons/braces_32.png</file>
+        <file alias="braces_48.png">icons/braces_48.png</file>
+        <file alias="braces_64.png">icons/braces_64.png</file>
+
+        <file alias="power_16.png">icons/power_16.png</file>
+        <file alias="power_24.png">icons/power_24.png</file>
+        <file alias="power_32.png">icons/power_32.png</file>
+        <file alias="power_48.png">icons/power_48.png</file>
+        <file alias="power_64.png">icons/power_64.png</file>
+        <file alias="power_128.png">icons/power_128.png</file>
+
+        <file alias="square_root_operator_32.png">icons/square_root_operator_32.png</file>
+        <file alias="square_root_operator_48.png">icons/square_root_operator_48.png</file>
+        <file alias="square_root_operator_64.png">icons/square_root_operator_64.png</file>
+        <file alias="square_root_operator_96.png">icons/square_root_operator_96.png</file>
+        <file alias="square_root_operator_128.png">icons/square_root_operator_128.png</file>
+
+        <file alias="root_operator_32.png">icons/root_operator_32.png</file>
+        <file alias="root_operator_48.png">icons/root_operator_48.png</file>
+        <file alias="root_operator_64.png">icons/root_operator_64.png</file>
+        <file alias="root_operator_96.png">icons/root_operator_96.png</file>
+        <file alias="root_operator_128.png">icons/root_operator_128.png</file>
+
+        <file alias="complex_conjugate_16.png">icons/complex_conjugate_16.png</file>
+        <file alias="complex_conjugate_24.png">icons/complex_conjugate_24.png</file>
+        <file alias="complex_conjugate_32.png">icons/complex_conjugate_32.png</file>
+        <file alias="complex_conjugate_48.png">icons/complex_conjugate_48.png</file>
+        <file alias="complex_conjugate_64.png">icons/complex_conjugate_64.png</file>
+        <file alias="complex_conjugate_128.png">icons/complex_conjugate_128.png</file>
+
+        <file alias="factorial_16.png">icons/factorial_16.png</file>
+        <file alias="factorial_32.png">icons/factorial_32.png</file>
+        <file alias="factorial_48.png">icons/factorial_48.png</file>
+        <file alias="factorial_64.png">icons/factorial_64.png</file>
+        <file alias="factorial_128.png">icons/factorial_128.png</file>
+
+        <file alias="absolute_value_16.png">icons/absolute_value_16.png</file>
+        <file alias="absolute_value_24.png">icons/absolute_value_24.png</file>
+        <file alias="absolute_value_32.png">icons/absolute_value_32.png</file>
+        <file alias="absolute_value_48.png">icons/absolute_value_48.png</file>
+        <file alias="absolute_value_64.png">icons/absolute_value_64.png</file>
+        <file alias="absolute_value_128.png">icons/absolute_value_128.png</file>
+
+        <file alias="floor_16.png">icons/floor_16.png</file>
+        <file alias="floor_24.png">icons/floor_24.png</file>
+        <file alias="floor_32.png">icons/floor_32.png</file>
+        <file alias="floor_48.png">icons/floor_48.png</file>
+        <file alias="floor_64.png">icons/floor_64.png</file>
+        <file alias="floor_128.png">icons/floor_128.png</file>
+
+        <file alias="ceiling_16.png">icons/ceiling_16.png</file>
+        <file alias="ceiling_24.png">icons/ceiling_24.png</file>
+        <file alias="ceiling_32.png">icons/ceiling_32.png</file>
+        <file alias="ceiling_48.png">icons/ceiling_48.png</file>
+        <file alias="ceiling_64.png">icons/ceiling_64.png</file>
+        <file alias="ceiling_128.png">icons/ceiling_128.png</file>
+
+        <file alias="nearest_integer_16.png">icons/nearest_integer_16.png</file>
+        <file alias="nearest_integer_24.png">icons/nearest_integer_24.png</file>
+        <file alias="nearest_integer_32.png">icons/nearest_integer_32.png</file>
+        <file alias="nearest_integer_48.png">icons/nearest_integer_48.png</file>
+        <file alias="nearest_integer_64.png">icons/nearest_integer_64.png</file>
+        <file alias="nearest_integer_128.png">icons/nearest_integer_128.png</file>
+
+        <file alias="logical_and_operator_32.png">icons/logical_and_operator_32.png</file>
+        <file alias="logical_and_operator_48.png">icons/logical_and_operator_48.png</file>
+        <file alias="logical_and_operator_64.png">icons/logical_and_operator_64.png</file>
+        <file alias="logical_and_operator_96.png">icons/logical_and_operator_96.png</file>
+        <file alias="logical_and_operator_128.png">icons/logical_and_operator_128.png</file>
+
+        <file alias="logical_or_operator_32.png">icons/logical_or_operator_32.png</file>
+        <file alias="logical_or_operator_48.png">icons/logical_or_operator_48.png</file>
+        <file alias="logical_or_operator_64.png">icons/logical_or_operator_64.png</file>
+        <file alias="logical_or_operator_96.png">icons/logical_or_operator_96.png</file>
+        <file alias="logical_or_operator_128.png">icons/logical_or_operator_128.png</file>
+
+        <file alias="logical_exclusive_or_operator_32.png">icons/logical_exclusive_or_operator_32.png</file>
+        <file alias="logical_exclusive_or_operator_48.png">icons/logical_exclusive_or_operator_48.png</file>
+        <file alias="logical_exclusive_or_operator_64.png">icons/logical_exclusive_or_operator_64.png</file>
+        <file alias="logical_exclusive_or_operator_96.png">icons/logical_exclusive_or_operator_96.png</file>
+        <file alias="logical_exclusive_or_operator_128.png">icons/logical_exclusive_or_operator_128.png</file>
+
+        <file alias="logical_conditional_operator_32.png">icons/logical_conditional_operator_32.png</file>
+        <file alias="logical_conditional_operator_48.png">icons/logical_conditional_operator_48.png</file>
+        <file alias="logical_conditional_operator_64.png">icons/logical_conditional_operator_64.png</file>
+        <file alias="logical_conditional_operator_96.png">icons/logical_conditional_operator_96.png</file>
+        <file alias="logical_conditional_operator_128.png">icons/logical_conditional_operator_128.png</file>
+
+        <file alias="logical_biconditional_operator_32.png">icons/logical_biconditional_operator_32.png</file>
+        <file alias="logical_biconditional_operator_48.png">icons/logical_biconditional_operator_48.png</file>
+        <file alias="logical_biconditional_operator_64.png">icons/logical_biconditional_operator_64.png</file>
+        <file alias="logical_biconditional_operator_96.png">icons/logical_biconditional_operator_96.png</file>
+        <file alias="logical_biconditional_operator_128.png">icons/logical_biconditional_operator_128.png</file>
+
+        <file alias="logical_unary_not_operator_16.png">icons/logical_unary_not_operator_16.png</file>
+        <file alias="logical_unary_not_operator_32.png">icons/logical_unary_not_operator_32.png</file>
+        <file alias="logical_unary_not_operator_48.png">icons/logical_unary_not_operator_48.png</file>
+        <file alias="logical_unary_not_operator_64.png">icons/logical_unary_not_operator_64.png</file>
+        <file alias="logical_unary_not_operator_128.png">icons/logical_unary_not_operator_128.png</file>
+
+        <file alias="logical_overbar_not_operator_16.png">icons/logical_overbar_not_operator_16.png</file>
+        <file alias="logical_overbar_not_operator_32.png">icons/logical_overbar_not_operator_32.png</file>
+        <file alias="logical_overbar_not_operator_48.png">icons/logical_overbar_not_operator_48.png</file>
+        <file alias="logical_overbar_not_operator_64.png">icons/logical_overbar_not_operator_64.png</file>
+        <file alias="logical_overbar_not_operator_128.png">icons/logical_overbar_not_operator_128.png</file>
+
+        <file alias="not_equal_to_operator_32.png">icons/not_equal_to_operator_32.png</file>
+        <file alias="not_equal_to_operator_48.png">icons/not_equal_to_operator_48.png</file>
+        <file alias="not_equal_to_operator_64.png">icons/not_equal_to_operator_64.png</file>
+        <file alias="not_equal_to_operator_96.png">icons/not_equal_to_operator_96.png</file>
+        <file alias="not_equal_to_operator_128.png">icons/not_equal_to_operator_128.png</file>
+
+        <file alias="less_than_operator_32.png">icons/less_than_operator_32.png</file>
+        <file alias="less_than_operator_48.png">icons/less_than_operator_48.png</file>
+        <file alias="less_than_operator_64.png">icons/less_than_operator_64.png</file>
+        <file alias="less_than_operator_96.png">icons/less_than_operator_96.png</file>
+        <file alias="less_than_operator_128.png">icons/less_than_operator_128.png</file>
+
+        <file alias="greater_than_operator_32.png">icons/greater_than_operator_32.png</file>
+        <file alias="greater_than_operator_48.png">icons/greater_than_operator_48.png</file>
+        <file alias="greater_than_operator_64.png">icons/greater_than_operator_64.png</file>
+        <file alias="greater_than_operator_96.png">icons/greater_than_operator_96.png</file>
+        <file alias="greater_than_operator_128.png">icons/greater_than_operator_128.png</file>
+
+        <file alias="less_than_or_equal_to_operator_32.png">icons/less_than_or_equal_to_operator_32.png</file>
+        <file alias="less_than_or_equal_to_operator_48.png">icons/less_than_or_equal_to_operator_48.png</file>
+        <file alias="less_than_or_equal_to_operator_64.png">icons/less_than_or_equal_to_operator_64.png</file>
+        <file alias="less_than_or_equal_to_operator_96.png">icons/less_than_or_equal_to_operator_96.png</file>
+        <file alias="less_than_or_equal_to_operator_128.png">icons/less_than_or_equal_to_operator_128.png</file>
+
+        <file alias="greater_than_or_equal_to_operator_32.png">icons/greater_than_or_equal_to_operator_32.png</file>
+        <file alias="greater_than_or_equal_to_operator_48.png">icons/greater_than_or_equal_to_operator_48.png</file>
+        <file alias="greater_than_or_equal_to_operator_64.png">icons/greater_than_or_equal_to_operator_64.png</file>
+        <file alias="greater_than_or_equal_to_operator_96.png">icons/greater_than_or_equal_to_operator_96.png</file>
+        <file alias="greater_than_or_equal_to_operator_128.png">icons/greater_than_or_equal_to_operator_128.png</file>
+
+        <file alias="literal_16.png">icons/literal_16.png</file>
+        <file alias="literal_24.png">icons/literal_24.png</file>
+        <file alias="literal_32.png">icons/literal_32.png</file>
+        <file alias="literal_48.png">icons/literal_48.png</file>
+        <file alias="literal_64.png">icons/literal_64.png</file>
+        <file alias="literal_128.png">icons/literal_128.png</file>
+
+        <file alias="set_32.png">icons/set_32.png</file>
+        <file alias="set_48.png">icons/set_48.png</file>
+        <file alias="set_64.png">icons/set_64.png</file>
+        <file alias="set_96.png">icons/set_96.png</file>
+        <file alias="set_128.png">icons/set_128.png</file>
+
+        <file alias="tuple_32.png">icons/tuple_32.png</file>
+        <file alias="tuple_48.png">icons/tuple_48.png</file>
+        <file alias="tuple_64.png">icons/tuple_64.png</file>
+        <file alias="tuple_96.png">icons/tuple_96.png</file>
+        <file alias="tuple_128.png">icons/tuple_128.png</file>
+
+        <file alias="range_2_32.png">icons/range_2_32.png</file>
+        <file alias="range_2_48.png">icons/range_2_48.png</file>
+        <file alias="range_2_64.png">icons/range_2_64.png</file>
+        <file alias="range_2_96.png">icons/range_2_96.png</file>
+        <file alias="range_2_128.png">icons/range_2_128.png</file>
+
+        <file alias="range_3_48.png">icons/range_3_48.png</file>
+        <file alias="range_3_72.png">icons/range_3_72.png</file>
+        <file alias="range_3_96.png">icons/range_3_96.png</file>
+        <file alias="range_3_144.png">icons/range_3_144.png</file>
+        <file alias="range_3_192.png">icons/range_3_192.png</file>
+
+        <file alias="union_operator_32.png">icons/union_operator_32.png</file>
+        <file alias="union_operator_48.png">icons/union_operator_48.png</file>
+        <file alias="union_operator_64.png">icons/union_operator_64.png</file>
+        <file alias="union_operator_96.png">icons/union_operator_96.png</file>
+        <file alias="union_operator_128.png">icons/union_operator_128.png</file>
+
+        <file alias="intersection_operator_32.png">icons/intersection_operator_32.png</file>
+        <file alias="intersection_operator_48.png">icons/intersection_operator_48.png</file>
+        <file alias="intersection_operator_64.png">icons/intersection_operator_64.png</file>
+        <file alias="intersection_operator_96.png">icons/intersection_operator_96.png</file>
+        <file alias="intersection_operator_128.png">icons/intersection_operator_128.png</file>
+
+        <file alias="disjoint_union_operator_32.png">icons/disjoint_union_operator_32.png</file>
+        <file alias="disjoint_union_operator_48.png">icons/disjoint_union_operator_48.png</file>
+        <file alias="disjoint_union_operator_64.png">icons/disjoint_union_operator_64.png</file>
+        <file alias="disjoint_union_operator_96.png">icons/disjoint_union_operator_96.png</file>
+        <file alias="disjoint_union_operator_128.png">icons/disjoint_union_operator_128.png</file>
+
+        <file alias="set_difference_operator_32.png">icons/set_difference_operator_32.png</file>
+        <file alias="set_difference_operator_48.png">icons/set_difference_operator_48.png</file>
+        <file alias="set_difference_operator_64.png">icons/set_difference_operator_64.png</file>
+        <file alias="set_difference_operator_96.png">icons/set_difference_operator_96.png</file>
+        <file alias="set_difference_operator_128.png">icons/set_difference_operator_128.png</file>
+
+        <file alias="symmetric_difference_operator_32.png">icons/symmetric_difference_operator_32.png</file>
+        <file alias="symmetric_difference_operator_48.png">icons/symmetric_difference_operator_48.png</file>
+        <file alias="symmetric_difference_operator_64.png">icons/symmetric_difference_operator_64.png</file>
+        <file alias="symmetric_difference_operator_96.png">icons/symmetric_difference_operator_96.png</file>
+        <file alias="symmetric_difference_operator_128.png">icons/symmetric_difference_operator_128.png</file>
+
+        <file alias="cartesian_product_operator_32.png">icons/cartesian_product_operator_32.png</file>
+        <file alias="cartesian_product_operator_48.png">icons/cartesian_product_operator_48.png</file>
+        <file alias="cartesian_product_operator_64.png">icons/cartesian_product_operator_64.png</file>
+        <file alias="cartesian_product_operator_96.png">icons/cartesian_product_operator_96.png</file>
+        <file alias="cartesian_product_operator_128.png">icons/cartesian_product_operator_128.png</file>
+
+        <file alias="nary_union_operator_16.png">icons/nary_union_operator_16.png</file>
+        <file alias="nary_union_operator_32.png">icons/nary_union_operator_32.png</file>
+        <file alias="nary_union_operator_48.png">icons/nary_union_operator_48.png</file>
+        <file alias="nary_union_operator_64.png">icons/nary_union_operator_64.png</file>
+        <file alias="nary_union_operator_128.png">icons/nary_union_operator_128.png</file>
+
+        <file alias="nary_disjoint_union_operator_16.png">icons/nary_disjoint_union_operator_16.png</file>
+        <file alias="nary_disjoint_union_operator_32.png">icons/nary_disjoint_union_operator_32.png</file>
+        <file alias="nary_disjoint_union_operator_48.png">icons/nary_disjoint_union_operator_48.png</file>
+        <file alias="nary_disjoint_union_operator_64.png">icons/nary_disjoint_union_operator_64.png</file>
+        <file alias="nary_disjoint_union_operator_128.png">icons/nary_disjoint_union_operator_128.png</file>
+
+        <file alias="subset_operator_32.png">icons/subset_operator_32.png</file>
+        <file alias="subset_operator_48.png">icons/subset_operator_48.png</file>
+        <file alias="subset_operator_64.png">icons/subset_operator_64.png</file>
+        <file alias="subset_operator_96.png">icons/subset_operator_96.png</file>
+        <file alias="subset_operator_128.png">icons/subset_operator_128.png</file>
+
+        <file alias="superset_operator_32.png">icons/superset_operator_32.png</file>
+        <file alias="superset_operator_48.png">icons/superset_operator_48.png</file>
+        <file alias="superset_operator_64.png">icons/superset_operator_64.png</file>
+        <file alias="superset_operator_96.png">icons/superset_operator_96.png</file>
+        <file alias="superset_operator_128.png">icons/superset_operator_128.png</file>
+
+        <file alias="proper_subset_operator_32.png">icons/proper_subset_operator_32.png</file>
+        <file alias="proper_subset_operator_48.png">icons/proper_subset_operator_48.png</file>
+        <file alias="proper_subset_operator_64.png">icons/proper_subset_operator_64.png</file>
+        <file alias="proper_subset_operator_96.png">icons/proper_subset_operator_96.png</file>
+        <file alias="proper_subset_operator_128.png">icons/proper_subset_operator_128.png</file>
+
+        <file alias="proper_superset_operator_32.png">icons/proper_superset_operator_32.png</file>
+        <file alias="proper_superset_operator_48.png">icons/proper_superset_operator_48.png</file>
+        <file alias="proper_superset_operator_64.png">icons/proper_superset_operator_64.png</file>
+        <file alias="proper_superset_operator_96.png">icons/proper_superset_operator_96.png</file>
+        <file alias="proper_superset_operator_128.png">icons/proper_superset_operator_128.png</file>
+
+        <file alias="not_subset_operator_32.png">icons/not_subset_operator_32.png</file>
+        <file alias="not_subset_operator_48.png">icons/not_subset_operator_48.png</file>
+        <file alias="not_subset_operator_64.png">icons/not_subset_operator_64.png</file>
+        <file alias="not_subset_operator_96.png">icons/not_subset_operator_96.png</file>
+        <file alias="not_subset_operator_128.png">icons/not_subset_operator_128.png</file>
+
+        <file alias="not_superset_operator_32.png">icons/not_superset_operator_32.png</file>
+        <file alias="not_superset_operator_48.png">icons/not_superset_operator_48.png</file>
+        <file alias="not_superset_operator_64.png">icons/not_superset_operator_64.png</file>
+        <file alias="not_superset_operator_96.png">icons/not_superset_operator_96.png</file>
+        <file alias="not_superset_operator_128.png">icons/not_superset_operator_128.png</file>
+
+        <file alias="not_proper_subset_operator_32.png">icons/not_proper_subset_operator_32.png</file>
+        <file alias="not_proper_subset_operator_48.png">icons/not_proper_subset_operator_48.png</file>
+        <file alias="not_proper_subset_operator_64.png">icons/not_proper_subset_operator_64.png</file>
+        <file alias="not_proper_subset_operator_96.png">icons/not_proper_subset_operator_96.png</file>
+        <file alias="not_proper_subset_operator_128.png">icons/not_proper_subset_operator_128.png</file>
+
+        <file alias="not_proper_superset_operator_32.png">icons/not_proper_superset_operator_32.png</file>
+        <file alias="not_proper_superset_operator_48.png">icons/not_proper_superset_operator_48.png</file>
+        <file alias="not_proper_superset_operator_64.png">icons/not_proper_superset_operator_64.png</file>
+        <file alias="not_proper_superset_operator_96.png">icons/not_proper_superset_operator_96.png</file>
+        <file alias="not_proper_superset_operator_128.png">icons/not_proper_superset_operator_128.png</file>
+
+        <file alias="not_element_of_set_operator_32.png">icons/not_element_of_set_operator_32.png</file>
+        <file alias="not_element_of_set_operator_48.png">icons/not_element_of_set_operator_48.png</file>
+        <file alias="not_element_of_set_operator_64.png">icons/not_element_of_set_operator_64.png</file>
+        <file alias="not_element_of_set_operator_96.png">icons/not_element_of_set_operator_96.png</file>
+        <file alias="not_element_of_set_operator_128.png">icons/not_element_of_set_operator_128.png</file>
+
+        <file alias="set_contains_operator_32.png">icons/set_contains_operator_32.png</file>
+        <file alias="set_contains_operator_48.png">icons/set_contains_operator_48.png</file>
+        <file alias="set_contains_operator_64.png">icons/set_contains_operator_64.png</file>
+        <file alias="set_contains_operator_96.png">icons/set_contains_operator_96.png</file>
+        <file alias="set_contains_operator_128.png">icons/set_contains_operator_128.png</file>
+
+        <file alias="not_set_contains_operator_32.png">icons/not_set_contains_operator_32.png</file>
+        <file alias="not_set_contains_operator_48.png">icons/not_set_contains_operator_48.png</file>
+        <file alias="not_set_contains_operator_64.png">icons/not_set_contains_operator_64.png</file>
+        <file alias="not_set_contains_operator_96.png">icons/not_set_contains_operator_96.png</file>
+        <file alias="not_set_contains_operator_128.png">icons/not_set_contains_operator_128.png</file>
+
+        <file alias="define_matrix_operator_32.png">icons/define_matrix_operator_32.png</file>
+        <file alias="define_matrix_operator_48.png">icons/define_matrix_operator_48.png</file>
+        <file alias="define_matrix_operator_64.png">icons/define_matrix_operator_64.png</file>
+        <file alias="define_matrix_operator_96.png">icons/define_matrix_operator_96.png</file>
+        <file alias="define_matrix_operator_128.png">icons/define_matrix_operator_128.png</file>
+
+        <file alias="subscript_index_operator_16.png">icons/subscript_index_operator_16.png</file>
+        <file alias="subscript_index_operator_24.png">icons/subscript_index_operator_24.png</file>
+        <file alias="subscript_index_operator_32.png">icons/subscript_index_operator_32.png</file>
+        <file alias="subscript_index_operator_48.png">icons/subscript_index_operator_48.png</file>
+        <file alias="subscript_index_operator_64.png">icons/subscript_index_operator_64.png</file>
+        <file alias="subscript_index_operator_128.png">icons/subscript_index_operator_128.png</file>
+
+        <file alias="subscript_row_column_operator_16.png">icons/subscript_row_column_operator_16.png</file>
+        <file alias="subscript_row_column_operator_24.png">icons/subscript_row_column_operator_24.png</file>
+        <file alias="subscript_row_column_operator_32.png">icons/subscript_row_column_operator_32.png</file>
+        <file alias="subscript_row_column_operator_48.png">icons/subscript_row_column_operator_48.png</file>
+        <file alias="subscript_row_column_operator_64.png">icons/subscript_row_column_operator_64.png</file>
+        <file alias="subscript_row_column_operator_128.png">icons/subscript_row_column_operator_128.png</file>
+
+        <file alias="matrix_transpose_operator_16.png">icons/matrix_transpose_operator_16.png</file>
+        <file alias="matrix_transpose_operator_24.png">icons/matrix_transpose_operator_24.png</file>
+        <file alias="matrix_transpose_operator_32.png">icons/matrix_transpose_operator_32.png</file>
+        <file alias="matrix_transpose_operator_48.png">icons/matrix_transpose_operator_48.png</file>
+        <file alias="matrix_transpose_operator_64.png">icons/matrix_transpose_operator_64.png</file>
+        <file alias="matrix_transpose_operator_128.png">icons/matrix_transpose_operator_128.png</file>
+
+        <file alias="matrix_hermitian_operator_16.png">icons/matrix_hermitian_operator_16.png</file>
+        <file alias="matrix_hermitian_operator_24.png">icons/matrix_hermitian_operator_24.png</file>
+        <file alias="matrix_hermitian_operator_32.png">icons/matrix_hermitian_operator_32.png</file>
+        <file alias="matrix_hermitian_operator_48.png">icons/matrix_hermitian_operator_48.png</file>
+        <file alias="matrix_hermitian_operator_64.png">icons/matrix_hermitian_operator_64.png</file>
+        <file alias="matrix_hermitian_operator_128.png">icons/matrix_hermitian_operator_128.png</file>
+
+        <file alias="combine_matrix_left_to_right_operator_32.png">icons/combine_matrix_left_to_right_operator_32.png</file>
+        <file alias="combine_matrix_left_to_right_operator_48.png">icons/combine_matrix_left_to_right_operator_48.png</file>
+        <file alias="combine_matrix_left_to_right_operator_64.png">icons/combine_matrix_left_to_right_operator_64.png</file>
+        <file alias="combine_matrix_left_to_right_operator_96.png">icons/combine_matrix_left_to_right_operator_96.png</file>
+        <file alias="combine_matrix_left_to_right_operator_128.png">icons/combine_matrix_left_to_right_operator_128.png</file>
+
+        <file alias="combine_matrix_top_to_bottom_operator_32.png">icons/combine_matrix_top_to_bottom_operator_32.png</file>
+        <file alias="combine_matrix_top_to_bottom_operator_48.png">icons/combine_matrix_top_to_bottom_operator_48.png</file>
+        <file alias="combine_matrix_top_to_bottom_operator_64.png">icons/combine_matrix_top_to_bottom_operator_64.png</file>
+        <file alias="combine_matrix_top_to_bottom_operator_96.png">icons/combine_matrix_top_to_bottom_operator_96.png</file>
+        <file alias="combine_matrix_top_to_bottom_operator_128.png">icons/combine_matrix_top_to_bottom_operator_128.png</file>
+
+        <file alias="hadamard_product_operator_32.png">icons/hadamard_product_operator_32.png</file>
+        <file alias="hadamard_product_operator_48.png">icons/hadamard_product_operator_48.png</file>
+        <file alias="hadamard_product_operator_64.png">icons/hadamard_product_operator_64.png</file>
+        <file alias="hadamard_product_operator_96.png">icons/hadamard_product_operator_96.png</file>
+        <file alias="hadamard_product_operator_128.png">icons/hadamard_product_operator_128.png</file>
+
+        <file alias="kronecker_product_operator_32.png">icons/kronecker_product_operator_32.png</file>
+        <file alias="kronecker_product_operator_48.png">icons/kronecker_product_operator_48.png</file>
+        <file alias="kronecker_product_operator_64.png">icons/kronecker_product_operator_64.png</file>
+        <file alias="kronecker_product_operator_96.png">icons/kronecker_product_operator_96.png</file>
+        <file alias="kronecker_product_operator_128.png">icons/kronecker_product_operator_128.png</file>
+
+        <file alias="for_all_in_operator_64.png">icons/for_all_in_operator_64.png</file>
+        <file alias="for_all_in_operator_96.png">icons/for_all_in_operator_96.png</file>
+        <file alias="for_all_in_operator_128.png">icons/for_all_in_operator_128.png</file>
+        <file alias="for_all_in_operator_192.png">icons/for_all_in_operator_192.png</file>
+        <file alias="for_all_in_operator_256.png">icons/for_all_in_operator_256.png</file>
+
+        <file alias="while_operator_64.png">icons/while_operator_64.png</file>
+        <file alias="while_operator_96.png">icons/while_operator_96.png</file>
+        <file alias="while_operator_128.png">icons/while_operator_128.png</file>
+        <file alias="while_operator_192.png">icons/while_operator_192.png</file>
+        <file alias="while_operator_256.png">icons/while_operator_256.png</file>
+
+        <file alias="brace_conditional_operator_64.png">icons/brace_conditional_operator_64.png</file>
+        <file alias="brace_conditional_operator_96.png">icons/brace_conditional_operator_96.png</file>
+        <file alias="brace_conditional_operator_128.png">icons/brace_conditional_operator_128.png</file>
+        <file alias="brace_conditional_operator_192.png">icons/brace_conditional_operator_192.png</file>
+        <file alias="brace_conditional_operator_256.png">icons/brace_conditional_operator_256.png</file>
+
+        <file alias="if_operator_32.png">icons/if_operator_32.png</file>
+        <file alias="if_operator_48.png">icons/if_operator_48.png</file>
+        <file alias="if_operator_64.png">icons/if_operator_64.png</file>
+        <file alias="if_operator_96.png">icons/if_operator_96.png</file>
+        <file alias="if_operator_128.png">icons/if_operator_128.png</file>
+
+        <file alias="else_if_operator_64.png">icons/else_if_operator_64.png</file>
+        <file alias="else_if_operator_96.png">icons/else_if_operator_96.png</file>
+        <file alias="else_if_operator_128.png">icons/else_if_operator_128.png</file>
+        <file alias="else_if_operator_192.png">icons/else_if_operator_192.png</file>
+        <file alias="else_if_operator_256.png">icons/else_if_operator_256.png</file>
+
+        <file alias="else_operator_32.png">icons/else_operator_32.png</file>
+        <file alias="else_operator_48.png">icons/else_operator_48.png</file>
+        <file alias="else_operator_64.png">icons/else_operator_64.png</file>
+        <file alias="else_operator_96.png">icons/else_operator_96.png</file>
+        <file alias="else_operator_128.png">icons/else_operator_128.png</file>
+
+        <file alias="compound_statement_operator_32.png">icons/compound_statement_operator_32.png</file>
+        <file alias="compound_statement_operator_48.png">icons/compound_statement_operator_48.png</file>
+        <file alias="compound_statement_operator_64.png">icons/compound_statement_operator_64.png</file>
+        <file alias="compound_statement_operator_96.png">icons/compound_statement_operator_96.png</file>
+        <file alias="compound_statement_operator_128.png">icons/compound_statement_operator_128.png</file>
+
+        <file alias="halmos_operator_16.png">icons/halmos_operator_16.png</file>
+        <file alias="halmos_operator_24.png">icons/halmos_operator_24.png</file>
+        <file alias="halmos_operator_32.png">icons/halmos_operator_32.png</file>
+        <file alias="halmos_operator_48.png">icons/halmos_operator_48.png</file>
+        <file alias="halmos_operator_64.png">icons/halmos_operator_64.png</file>
+        <file alias="halmos_operator_128.png">icons/halmos_operator_128.png</file>
+
+        <file alias="therefore_operator_32.png">icons/therefore_operator_32.png</file>
+        <file alias="therefore_operator_48.png">icons/therefore_operator_48.png</file>
+        <file alias="therefore_operator_64.png">icons/therefore_operator_64.png</file>
+        <file alias="therefore_operator_96.png">icons/therefore_operator_96.png</file>
+        <file alias="therefore_operator_128.png">icons/therefore_operator_128.png</file>
+
+        <file alias="function_operator_32.png">icons/function_operator_32.png</file>
+        <file alias="function_operator_48.png">icons/function_operator_48.png</file>
+        <file alias="function_operator_64.png">icons/function_operator_64.png</file>
+        <file alias="function_operator_96.png">icons/function_operator_96.png</file>
+        <file alias="function_operator_128.png">icons/function_operator_128.png</file>
+
+        <file alias="function_help_32.png">icons/function_help_32.png</file>
+        <file alias="function_help_48.png">icons/function_help_48.png</file>
+        <file alias="function_help_64.png">icons/function_help_64.png</file>
+        <file alias="function_help_96.png">icons/function_help_96.png</file>
+        <file alias="function_help_128.png">icons/function_help_128.png</file>
+
+        <file alias="insert_standard_function_32.png">icons/insert_standard_function_32.png</file>
+        <file alias="insert_standard_function_48.png">icons/insert_standard_function_48.png</file>
+        <file alias="insert_standard_function_64.png">icons/insert_standard_function_64.png</file>
+        <file alias="insert_standard_function_96.png">icons/insert_standard_function_96.png</file>
+        <file alias="insert_standard_function_128.png">icons/insert_standard_function_128.png</file>
+
+        <!-- Miscellaneous Icons -->
+
+        <file alias="advanced_controls_visible_24.png">icons/advanced_controls_visible_24.png</file>
+        <file alias="advanced_controls_hidden_24.png">icons/advanced_controls_hidden_24.png</file>
+
+        <file alias="advanced_controls_visible_32.png">icons/advanced_controls_visible_32.png</file>
+        <file alias="advanced_controls_hidden_32.png">icons/advanced_controls_hidden_32.png</file>
+
+        <file alias="plot_xy_64.png">icons/plot_xy_64.png</file>
+        <file alias="plot_scatter_2d_64.png">icons/plot_scatter_2d_64.png</file>
+        <file alias="plot_bar_chart_64.png">icons/plot_bar_chart_64.png</file>
+        <file alias="plot_histogram_64.png">icons/plot_histogram_64.png</file>
+        <file alias="plot_pie_chart_64.png">icons/plot_pie_chart_64.png</file>
+        <file alias="plot_donut_chart_64.png">icons/plot_donut_chart_64.png</file>
+        <file alias="plot_polar_2d_64.png">icons/plot_polar_2d_64.png</file>
+        <file alias="plot_scatter_3d_64.png">icons/plot_scatter_3d_64.png</file>
+        <file alias="plot_surface_64.png">icons/plot_surface_64.png</file>
+        <file alias="plot_topo_64.png">icons/plot_topo_64.png</file>
+        <file alias="plot_heat_chart_64.png">icons/plot_heat_chart_64.png</file>
+        <file alias="plot_image_rgb_64.png">icons/plot_image_rgb_64.png</file>
+        <file alias="plot_image_cmyk_64.png">icons/plot_image_cmyk_64.png</file>
+        <file alias="plot_image_grayscale_64.png">icons/plot_image_grayscale_64.png</file>
+
+        <!-- Other graphics -->
+
+        <file alias="splash_screen_large.png">icons/splash_screen_large.png</file>
+
+        <file alias="inesonic_logo.png">icons/inesonic_logo.png</file>
+        <file alias="arrow_left.png">icons/arrow_left.png</file>
+        <file alias="arrow_right.png">icons/arrow_right.png</file>
+        <file alias="arrow_up.png">icons/arrow_up.png</file>
+        <file alias="arrow_down.png">icons/arrow_down.png</file>
+
+        <file alias="application_icon_256.png">icons/application_icon_256.png</file>
+
+        <!-- Unused but retained -->
+
+        <file alias="view_ruler_32.png">icons/view_ruler_32.png</file>
+        <file alias="view_ruler_48.png">icons/view_ruler_48.png</file>
+        <file alias="view_ruler_128.png">icons/view_ruler_128.png</file>
+    </qresource>
+</RCC>
