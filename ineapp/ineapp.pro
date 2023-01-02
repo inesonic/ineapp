@@ -908,29 +908,6 @@ macx {
 }
 
 ########################################################################################################################
-# Setup repo version builder script.
-#
-
-unix {
-    PYTHON_EXECUTABLE = python3
-}
-
-win32 {
-    PYTHON_EXECUTABLE = python
-}
-
-system( \
-    echo Building SCM Version Data && \
-    $${PYTHON_EXECUTABLE} $${SOURCE_ROOT}/build_tools/repo_version_builder.py \
-                          --type svn \
-                          --path $${SOURCE_ROOT} \
-                          --output $${BUILD_ROOT}/scm_version.h \
-)
-
-INCLUDEPATH += $${BUILD_ROOT}
-BUILD_HEADERS += $${BUILD_ROOT}/scm_version.h
-
-########################################################################################################################
 # Setup headers and installation
 #
 
@@ -946,23 +923,87 @@ RESOURCES = ineapp.qrc
 # Libraries
 #
 
-include("$${SOURCE_ROOT}/libraries/ineeqt/ineeqt.pri")
-include("$${SOURCE_ROOT}/libraries/inecrypto/inecrypto.pri")
-include("$${SOURCE_ROOT}/libraries/ineld/ineld.pri")
-include("$${SOURCE_ROOT}/libraries/inecbe/inecbe.pri")
-include("$${SOURCE_ROOT}/libraries/inem/inem.pri")
-include("$${SOURCE_ROOT}/libraries/inemat/inemat.pri")
-include("$${SOURCE_ROOT}/libraries/inemkl/inemkl.pri")
-#include("$${SOURCE_ROOT}/libraries/ineldr/ineldr.pri")
-include("$${SOURCE_ROOT}/libraries/inecontainer/inecontainer.pri")
-include("$${SOURCE_ROOT}/libraries/ineqcontainer/ineqcontainer.pri")
-include("$${SOURCE_ROOT}/libraries/ineutil/ineutil.pri")
-include("$${SOURCE_ROOT}/libraries/ineud/ineud.pri")
-include("$${SOURCE_ROOT}/libraries/inewh/inewh.pri")
-include("$${SOURCE_ROOT}/libraries/inelicmgr/inelicmgr.pri")
-include("$${SOURCE_ROOT}/third_party/mkl.pri")
-include("$${SOURCE_ROOT}/third_party/boost.pri")
-include("$${SOURCE_ROOT}/third_party/operating_system.pri")
+INCLUDEPATH += $${INEEQT_INCLUDE}
+INCLUDEPATH += $${INECRYPTO_INCLUDE}
+INCLUDEPATH += $${INELD_INCLUDE}
+INCLUDEPATH += $${INECBE_INCLUDE}
+INCLUDEPATH += $${INEM_INCLUDE}
+INCLUDEPATH += $${INEMAT_INCLUDE}
+INCLUDEPATH += $${INECONTAINER_INCLUDE}
+INCLUDEPATH += $${INEQCONTAINER_INCLUDE}
+INCLUDEPATH += $${INEUTIL_INCLUDE}
+INCLUDEPATH += $${INEUD_INCLUDE}
+INCLUDEPATH += $${INEWH_INCLUDE}
+INCLUDEPATH += $${BOOST_INCLUDE}
+
+LIBS += -L$${INEEQT_LIBDIR} -lineeqt
+LIBS += -L$${INECRYPTO_LIBDIR} -linecrypto
+LIBS += -L$${INELD_LIBDIR} -lineld
+LIBS += -L$${INECBE_LIBDIR} -linecbe
+LIBS += -L$${INEM_LIBDIR} -linem
+LIBS += -L$${INEMAT_LIBDIR} -linemat
+LIBS += -L$${INECONTAINER_LIBDIR} -linecontainer
+LIBS += -L$${INEQCONTAINER_LIBDIR} -lineqcontainer
+LIBS += -L$${INEUTIL_LIBDIR} -lineutil
+LIBS += -L$${INEUD_LIBDIR} -lineud
+LIBS += -L$${INEWH_LIBDIR} -linewh
+
+########################################################################################################################
+# Operating System
+#
+
+unix {
+#  Note that some of these libraries may not be part of the OS.  See if we need a distinct PRI file for any of them.
+    unix:!macx {
+        LIBS += -lrt -ldl
+    } else {
+        LIBS += -lncurses
+    }
+
+    LIBS += -lpthread
+    LIBS += -lz
+    LIBS += -lm
+}
+
+win32 {
+    exists("C:/Program Files (x86)/Windows Kits/10/Lib/10.0.18362.0") {
+        WINDOWS_KIT_BASE="C:/Program Files (x86)/Windows Kits/10/Lib/10.0.18362.0"
+    } else {
+        exists("C:/Program Files (x86)/Windows Kits/10/Lib/10.0.19041.0") {
+            WINDOWS_KIT_BASE="C:/Program Files (x86)/Windows Kits/10/Lib/10.0.19041.0"
+        } else {
+            error("Unknown/Missing Windows kit.")
+        }
+    }
+
+    contains(QMAKE_TARGET.arch, x86_64) {
+        WINDOWS_KIT_DIRECTORY="$${WINDOWS_KIT_BASE}/um/x64"
+    } else {
+        WINDOWS_KIT_DIRECTORY="$${WINDOWS_KIT_BASE}/um/x86"
+    }
+
+    LIBS += "$${WINDOWS_KIT_DIRECTORY}/Version.Lib"
+    LIBS += "$${WINDOWS_KIT_DIRECTORY}/Psapi.Lib"
+    LIBS += "$${WINDOWS_KIT_DIRECTORY}/shell32.lib"
+    LIBS += "$${WINDOWS_KIT_DIRECTORY}/Ole32.Lib"
+    LIBS += "$${WINDOWS_KIT_DIRECTORY}/Uuid.Lib"
+    LIBS += "$${WINDOWS_KIT_DIRECTORY}/Kernel32.Lib"
+    LIBS += "$${WINDOWS_KIT_DIRECTORY}/User32.Lib"
+    LIBS += "$${WINDOWS_KIT_DIRECTORY}/Gdi32.Lib"
+    LIBS += "$${WINDOWS_KIT_DIRECTORY}/WinSpool.Lib"
+    LIBS += "$${WINDOWS_KIT_DIRECTORY}/OleAut32.Lib"
+    LIBS += "$${WINDOWS_KIT_DIRECTORY}/User32.Lib"
+    LIBS += "$${WINDOWS_KIT_DIRECTORY}/ComDlg32.Lib"
+    LIBS += "$${WINDOWS_KIT_DIRECTORY}/AdvAPI32.Lib"
+
+    !contains(DEFINES, CBE_EXTERNAL_LINKER) {
+        contains(QMAKE_TARGET.arch, x86_64) {
+            LIBS += "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/DIA SDK/lib/amd64/diaguids.lib"
+        } else {
+            LIBS += "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/DIA SDK/lib/diaguids.lib"
+        }
+    }
+}
 
 ########################################################################################################################
 # Locate build intermediate and output products
