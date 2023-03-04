@@ -46,39 +46,7 @@ AboutDialog::~AboutDialog() {}
 
 
 void AboutDialog::populate() {
-    widget<QLabel>("license_user_label")->setText(Application::customerName());
-    widget<QLabel>("license_company_label")->setText(Application::companyName());
-    widget<QLabel>("license_key_label")->setText(Application::installationKey());
-
-    QDate expirationDate = Application::licenseRenewalDateTime().date();
-    QString expiration;
-    if (!expirationDate.isNull()) {
-        if (expirationDate > QDate(2900, 1, 1)) {
-            expiration = tr("Perpetual");
-        } else if (expirationDate < QDate(1971, 1, 1)) {
-            expiration = tr("Subscription Invalid");
-        } else {
-            long long daysLeft = expirationDate.toJulianDay() - QDateTime::currentDateTimeUtc().date().toJulianDay();
-            if (daysLeft < 0) {
-                expiration = tr("%1 (past due)").arg(expirationDate.toString());
-            } else if (daysLeft == 0) {
-                expiration = tr("%1 (today)").arg(expirationDate.toString());
-            } else if (daysLeft == 1) {
-                expiration = tr("%1 (tomorrow)").arg(expirationDate.toString());
-            } else if (daysLeft <= 30) {
-                expiration = tr("%1 (in %2 days)").arg(expirationDate.toString()).arg(daysLeft);
-            } else {
-                expiration = expirationDate.toString();
-            }
-        }
-    } else {
-        expiration = tr("Perpetual");
-    }
-
-    widget<QLabel>("license_expiration_label")->setText(expiration);
-
     widget<QPushButton>("plugins_push_button")->setVisible(plugInsLoaded());
-
     ProgrammaticDialog::populate();
 }
 
@@ -132,8 +100,6 @@ void AboutDialog::configureWidget() {
 
     QVBoxLayout* licensingLayout = newVBoxLayout("licensing_layout");
     licensingGroupBox->setLayout(licensingLayout);
-
-    buildLicensingDetails(licensingLayout);
 
     QHBoxLayout* buttonLayout = newHBoxLayout("button_layout");
     verticalLayout->addLayout(buttonLayout);
@@ -199,12 +165,12 @@ void AboutDialog::buildLogo(QVBoxLayout* layout) {
     versionLabel->setAlignment(Qt::AlignCenter);
     layout->addWidget(versionLabel);
 
-    QLabel* buildLabel = new QLabel(tr("Build %1").arg(Application::applicationBuildString()));
-    registerWidget(buildLabel, "build_label");
+//    QLabel* buildLabel = new QLabel(tr("Build %1").arg(Application::applicationBuildString()));
+//    registerWidget(buildLabel, "build_label");
 
-    buildLabel->setFont(versionFont);
-    buildLabel->setAlignment(Qt::AlignCenter);
-    layout->addWidget(buildLabel);
+//    buildLabel->setFont(versionFont);
+//    buildLabel->setAlignment(Qt::AlignCenter);
+//    layout->addWidget(buildLabel);
 
     layout->addStretch(1);
 }
@@ -235,37 +201,6 @@ void AboutDialog::buildCompanyData(QVBoxLayout* layout) {
     companyUrlLabel->setFont(companyUrlFont);
     companyUrlLabel->setAlignment(Qt::AlignLeft);
     layout->addWidget(companyUrlLabel);
-}
-
-
-void AboutDialog::buildLicensingDetails(QVBoxLayout* layout) {
-    QFormLayout* licensingDataLayout = newFormLayout("licensing_data_layout");
-    layout->addLayout(licensingDataLayout);
-
-    QLabel* licenseUserLabel = new QLabel;
-    QLabel* licenseCompanyLabel = new QLabel;
-    QLabel* licenseKeyLabel = new QLabel;
-    QLabel* licenseExpirationLabel = new QLabel;
-
-    registerWidget(licenseUserLabel, "license_user_label");
-    registerWidget(licenseCompanyLabel, "license_company_label");
-    registerWidget(licenseKeyLabel, "license_key_label");
-    registerWidget(licenseExpirationLabel, "license_expiration_label");
-
-    licensingDataLayout->addRow(tr("User:"), licenseUserLabel);
-    licensingDataLayout->addRow(tr("Company:"), licenseCompanyLabel);
-    licensingDataLayout->addRow(tr("Installation Key:"), licenseKeyLabel);
-    licensingDataLayout->addRow(tr("Next Renewal:"), licenseExpirationLabel);
-
-    QPushButton* plugInsPushButton = new QPushButton(tr("Plug-Ins"));
-    registerWidget(plugInsPushButton, "plugins_push_button");
-
-    QHBoxLayout* plugInsButtonLayout = newHBoxLayout("plugins_button_layout");
-    layout->addLayout(plugInsButtonLayout);
-
-    plugInsButtonLayout->addStretch(1);
-    plugInsButtonLayout->addWidget(plugInsPushButton);
-    plugInsButtonLayout->addStretch(1);
 }
 
 

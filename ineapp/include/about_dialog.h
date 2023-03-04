@@ -111,13 +111,6 @@ class APP_PUBLIC_API AboutDialog:public EQt::ProgrammaticDialog {
         void buildCompanyData(QVBoxLayout* layout);
 
         /**
-         * Called to build up details related to the application.
-         *
-         * \param[in] layout The layout to be filled in.
-         */
-        void buildLicensingDetails(QVBoxLayout* layout);
-
-        /**
          * Method that determines if there are any plug-ins.
          *
          * \return Returns true if one or more plug-ins are loaded.  Returns false if there are no available plug-ins.

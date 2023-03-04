@@ -66,7 +66,7 @@
 #include "application_settings.h"
 #include "metatypes.h"
 #include "version.h"
-#include "scm_version.h"
+//#include "scm_version.h"
 #include "main_window.h"
 #include "splash_screen.h"
 #include "registrar.h"
@@ -199,10 +199,10 @@ Application::Application(
 
     splashScreen = new SplashScreen(
         numberBaseInitializationSteps + numberPlugIns,
-        "Customer Name", //licenseManager->customerName(),
-        "Company Name", //licenseManager->companyName(),
-        QString(), // Licensee name (add for group licenses)
-        "Perpetual" // licenseManager->expirationDateTime().date()
+        "Customer Name",
+        "Company Name",
+        QString(),
+        QDate()
     );
 
     currentToolButtonSizingDialog = new ToolButtonSizingDialog;
@@ -294,17 +294,6 @@ Application::~Application() {
     if (currentToolButtonSizingDialog != Q_NULLPTR) {
         delete currentToolButtonSizingDialog;
     }
-}
-
-
-unsigned long long Application::applicationBuildNumber() {
-    return SCM_VERSION_NUMBER;
-}
-
-
-QString Application::applicationBuildString() {
-    unsigned long long buildNumber = Application::applicationBuildNumber();
-    return QString("%1.%2").arg(buildNumber).arg(SCM_VERSION_RELEASE_EPOCH);
 }
 
 

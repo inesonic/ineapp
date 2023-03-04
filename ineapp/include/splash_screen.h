@@ -74,7 +74,7 @@ class APP_PUBLIC_API SplashScreen:public QDialog {
             const QString& newCompanyName,
             const QString& newLicenseeName,
             const QDate&   newExpirationDateTime,
-            QWidget*         parent = Q_NULLPTR
+            QWidget*       parent = Q_NULLPTR
         );
 
         ~SplashScreen() override;

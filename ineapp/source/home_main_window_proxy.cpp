@@ -617,7 +617,7 @@ void HomeMainWindowProxy::helpOpenExamples() {
 
 
 void HomeMainWindowProxy::helpSendFeedback() {
-    unsigned long long customerId = Application::customerId();
+    unsigned long long customerId = 0; //Application::customerId();
 
     bool success = DesktopServices::sendFeedback(customerId);
     if (!success) {

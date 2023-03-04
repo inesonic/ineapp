@@ -17,6 +17,7 @@ equals(QT_MAJOR_VERSION, 6) {
 }
 
 DEFINES += INEAPP_BUILD
+DEFINES += INEM_USE_OS_ESCAPE
 
 unix:!macx {
     QT += dbus
@@ -923,30 +924,40 @@ RESOURCES = ineapp.qrc
 # Libraries
 #
 
-INCLUDEPATH += $${INEEQT_INCLUDE}
-INCLUDEPATH += $${INECRYPTO_INCLUDE}
+defined(SETTINGS_PRI, var) {
+    include($${SETTINGS_PRI})
+}
+
+defined(LLVM_PRI, var) {
+    include($${LLVM_PRI})
+}
+
 INCLUDEPATH += $${INELD_INCLUDE}
-INCLUDEPATH += $${INECBE_INCLUDE}
-INCLUDEPATH += $${INEM_INCLUDE}
-INCLUDEPATH += $${INEMAT_INCLUDE}
+INCLUDEPATH += $${INEEQT_INCLUDE}
 INCLUDEPATH += $${INECONTAINER_INCLUDE}
 INCLUDEPATH += $${INEQCONTAINER_INCLUDE}
+INCLUDEPATH += $${INECBE_INCLUDE}
+INCLUDEPATH += $${INEM_INCLUDE}
 INCLUDEPATH += $${INEUTIL_INCLUDE}
 INCLUDEPATH += $${INEUD_INCLUDE}
 INCLUDEPATH += $${INEWH_INCLUDE}
+INCLUDEPATH += $${INECRYPTO_INCLUDE}
 INCLUDEPATH += $${BOOST_INCLUDE}
 
-LIBS += -L$${INEEQT_LIBDIR} -lineeqt
-LIBS += -L$${INECRYPTO_LIBDIR} -linecrypto
 LIBS += -L$${INELD_LIBDIR} -lineld
-LIBS += -L$${INECBE_LIBDIR} -linecbe
-LIBS += -L$${INEM_LIBDIR} -linem
-LIBS += -L$${INEMAT_LIBDIR} -linemat
+LIBS += -L$${INEEQT_LIBDIR} -lineeqt
 LIBS += -L$${INECONTAINER_LIBDIR} -linecontainer
 LIBS += -L$${INEQCONTAINER_LIBDIR} -lineqcontainer
+LIBS += -L$${INECBE_LIBDIR} -linecbe
+LIBS += -L$${INEM_LIBDIR} -linem
 LIBS += -L$${INEUTIL_LIBDIR} -lineutil
 LIBS += -L$${INEUD_LIBDIR} -lineud
 LIBS += -L$${INEWH_LIBDIR} -linewh
+LIBS += -L$${INECRYPTO_LIBDIR} -linecrypto
+
+defined(INEMAT_PRI, var) {
+    include($${INEMAT_PRI})
+}
 
 ########################################################################################################################
 # Operating System
