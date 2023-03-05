@@ -52,10 +52,20 @@ INCLUDEPATH = $${PWD}/../ineapp/include/ $${PWD}/../ineapp/customer_include/
 unix {
     CONFIG(debug, debug|release) {
         LIBS += -L$${INEAPP_BASE}/build/debug/ -lineapp
-        PRE_TARGETDEPS += $${INEAPP_BASE}/build/debug/libineapp.so
+
+        macx {
+            PRE_TARGETDEPS += $${INEAPP_BASE}/build/debug/libineapp.dylib
+        } else {
+            PRE_TARGETDEPS += $${INEAPP_BASE}/build/debug/libineapp.so
+        }
     } else {
         LIBS += -L$${INEAPP_BASE}/build/release/ -lineapp
-        PRE_TARGETDEPS += $${INEAPP_BASE}/build/release/libineapp.so
+
+        macx {
+            PRE_TARGETDEPS += $${INEAPP_BASE}/build/release/libineapp.dylib
+        } else {
+            PRE_TARGETDEPS += $${INEAPP_BASE}/build/release/libineapp.so
+        }
     }
 }
 
