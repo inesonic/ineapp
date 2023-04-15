@@ -47,6 +47,23 @@ AboutDialog::~AboutDialog() {}
 
 void AboutDialog::populate() {
     widget<QPushButton>("plugins_push_button")->setVisible(plugInsLoaded());
+
+    #if (defined(AION_COMMERCIAL))
+
+        populateLicenseData(
+            widget<QLabel>("license_type_label"),
+            widget<QLabel>("license_user_label"),
+            widget<QLabel>("license_company_label"),
+            widget<QLabel>("license_key_label"),
+            widget<QLabel>("license_expiration_label")
+        );
+
+    #else
+
+        widget<QLabel>("license_type_label")->setText(tr("Free"));
+
+    #endif
+
     ProgrammaticDialog::populate();
 }
 
@@ -100,6 +117,8 @@ void AboutDialog::configureWidget() {
 
     QVBoxLayout* licensingLayout = newVBoxLayout("licensing_layout");
     licensingGroupBox->setLayout(licensingLayout);
+
+    buildLicensingDetails(licensingLayout);
 
     QHBoxLayout* buttonLayout = newHBoxLayout("button_layout");
     verticalLayout->addLayout(buttonLayout);
@@ -165,12 +184,12 @@ void AboutDialog::buildLogo(QVBoxLayout* layout) {
     versionLabel->setAlignment(Qt::AlignCenter);
     layout->addWidget(versionLabel);
 
-//    QLabel* buildLabel = new QLabel(tr("Build %1").arg(Application::applicationBuildString()));
-//    registerWidget(buildLabel, "build_label");
+    QLabel* buildLabel = new QLabel(tr("Build Date %1").arg(Application::applicationBuildString()));
+    registerWidget(buildLabel, "build_label");
 
-//    buildLabel->setFont(versionFont);
-//    buildLabel->setAlignment(Qt::AlignCenter);
-//    layout->addWidget(buildLabel);
+    buildLabel->setFont(versionFont);
+    buildLabel->setAlignment(Qt::AlignCenter);
+    layout->addWidget(buildLabel);
 
     layout->addStretch(1);
 }
@@ -203,6 +222,69 @@ void AboutDialog::buildCompanyData(QVBoxLayout* layout) {
     layout->addWidget(companyUrlLabel);
 }
 
+
+void AboutDialog::buildLicensingDetails(QVBoxLayout* layout) {
+    QFormLayout* licensingDataLayout = newFormLayout("licensing_data_layout");
+    layout->addLayout(licensingDataLayout);
+
+    QLabel* licenseTypeLabel = new QLabel;
+
+    #if (defined(AION_COMMERCIAL))
+
+        QLabel* licenseUserLabel = new QLabel;
+        QLabel* licenseCompanyLabel = new QLabel;
+        QLabel* licenseKeyLabel = new QLabel;
+        QLabel* licenseExpirationLabel = new QLabel;
+
+    #endif
+
+    registerWidget(licenseTypeLabel, "license_type_label");
+
+    #if (defined(AION_COMMERCIAL))
+
+        registerWidget(licenseUserLabel, "license_user_label");
+        registerWidget(licenseCompanyLabel, "license_company_label");
+        registerWidget(licenseKeyLabel, "license_key_label");
+        registerWidget(licenseExpirationLabel, "license_expiration_label");
+
+    #endif
+
+    licensingDataLayout->addRow(tr("Type:"), licenseTypeLabel);
+
+    #if (defined(AION_COMMERCIAL))
+
+        licensingDataLayout->addRow(tr("User:"), licenseUserLabel);
+        licensingDataLayout->addRow(tr("Company:"), licenseCompanyLabel);
+        licensingDataLayout->addRow(tr("Installation Key:"), licenseKeyLabel);
+        licensingDataLayout->addRow(tr("Next Renewal:"), licenseExpirationLabel);
+
+    #endif
+
+    QPushButton* plugInsPushButton = new QPushButton(tr("Plug-Ins"));
+    registerWidget(plugInsPushButton, "plugins_push_button");
+
+    QHBoxLayout* plugInsButtonLayout = newHBoxLayout("plugins_button_layout");
+    layout->addLayout(plugInsButtonLayout);
+
+    plugInsButtonLayout->addStretch(1);
+    plugInsButtonLayout->addWidget(plugInsPushButton);
+    plugInsButtonLayout->addStretch(1);
+
+}
+
+#if (defined(AION_COMMERCIAL))
+
+    void AboutDialog::populateLicenseData(
+            QLabel* licenseTypeLabel,
+            QLabel* licenseUserLabel,
+            QLabel* licenseCompanyLabel,
+            QLabel* licenseKeyLabel,
+            QLabel* licenseExpirationLabel
+        ) {
+        // PATCH HERE
+    }
+
+#endif
 
 bool AboutDialog::plugInsLoaded() {
     return !Application::plugInManager()->plugInsByName().isEmpty();

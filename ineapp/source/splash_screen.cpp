@@ -54,7 +54,7 @@ SplashScreen::SplashScreen(
         const QString& newCompanyName,
         const QString& newLicenseeName,
         const QDate&   newExpirationDate,
-        QWidget*         parent
+        QWidget*       parent
     ):QDialog(
         parent,
         Qt::WindowType::SplashScreen | Qt::WindowStaysOnTopHint
@@ -314,17 +314,25 @@ void SplashScreen::updateUserInformation() {
     unsigned     maximumFieldWidth;
     unsigned     numberTextRows = 1;
 
-    if (currentExpirationDate.isValid()) {
-        if (currentExpirationDate > QDate(2999, 1,1)) {
-            currentExpirationDateText = tr("Perpetual License");
-        } else if (currentExpirationDate < QDate(1971, 1, 1)) {
-            currentExpirationDateText = tr("License Invalid");
+    #if (defined(AION_COMMERCIAL))
+
+        if (currentExpirationDate.isValid()) {
+            if (currentExpirationDate > QDate(2999, 1,1)) {
+                currentExpirationDateText = tr("Perpetual License");
+            } else if (currentExpirationDate < QDate(1971, 1, 1)) {
+                currentExpirationDateText = tr("License Invalid");
+            } else {
+                currentExpirationDateText = tr("License Renews On %1 (UTC)").arg(currentExpirationDate.toString());
+            }
         } else {
-            currentExpirationDateText = tr("License Renews On %1 (UTC)").arg(currentExpirationDate.toString());
+            currentExpirationDateText = tr("Perpetual");
         }
-    } else {
-        currentExpirationDateText = tr("Perpetual");
-    }
+
+    #else
+
+        currentExpirationDateText = tr("Free Version");
+
+    #endif
 
     maximumFieldWidth = static_cast<unsigned>(fontMetrics.horizontalAdvance(currentExpirationDateText));
 

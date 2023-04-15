@@ -27,6 +27,10 @@
 #include <QScreen>
 #include <QMessageBox>
 #include <QFontDatabase>
+#include <QDate>
+#include <QTime>
+#include <QDateTime>
+#include <QTimeZone>
 
 #include <cstdlib>
 #include <iostream>
@@ -197,13 +201,21 @@ Application::Application(
 
     #endif
 
-    splashScreen = new SplashScreen(
-        numberBaseInitializationSteps + numberPlugIns,
-        "Customer Name",
-        "Company Name",
-        QString(),
-        QDate()
-    );
+    #if (defined(AION_COMMERCIAL))
+
+        splashScreen = new SplashScreen(
+            numberBaseInitializationSteps + numberPlugIns,
+            "Customer Name",
+            "Company Name",
+            QString(),
+            QDate()
+        );
+
+    #else
+
+        splashScreen = new SplashScreen(numberBaseInitializationSteps + numberPlugIns);
+
+    #endif
 
     currentToolButtonSizingDialog = new ToolButtonSizingDialog;
 
@@ -294,6 +306,27 @@ Application::~Application() {
     if (currentToolButtonSizingDialog != Q_NULLPTR) {
         delete currentToolButtonSizingDialog;
     }
+}
+
+
+unsigned long long Application::applicationBuildNumber() {
+    QString   buildString   = applicationBuildString();
+    QDateTime buildDateTime = QDateTime::fromString(buildString, Qt::DateFormat::ISODate);
+
+    return buildDateTime.toSecsSinceEpoch();
+}
+
+
+QString Application::applicationBuildString() {
+    QString   dateString(__DATE__);
+    QString   timeString(__TIME__);
+
+    QDate     date = QDate::fromString(dateString, QString("MMM dd yyyy"));
+    QTime     time = QTime::fromString(timeString, Qt::DateFormat::ISODate);
+
+    QDateTime buildDateTime(date, time, QTimeZone::utc());
+
+    return buildDateTime.toString("yyyy-MM-dd hh:mm:ssZ");
 }
 
 

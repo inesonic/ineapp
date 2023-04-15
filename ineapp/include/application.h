@@ -98,6 +98,21 @@ class APP_PUBLIC_API Application:public EQt::ProgrammaticApplication {
         }
 
         /**
+         * Returns a string indicating the application build as a numeric value.
+         *
+         * \return Returns a string holding the application build as a numeric value.  Values will be always
+         *         increasing.
+         */
+        static unsigned long long applicationBuildNumber();
+
+        /**
+         * Returns a string indicating the application build.
+         *
+         * \return Returns a string holding the application build.  Strings will be based on the Julian build date.
+         */
+        static QString applicationBuildString();
+
+        /**
          * Returns a pointer to the application's Ud::UsageData class instance.
          *
          * \return Return a pointer to an instance of Ud::UsageData

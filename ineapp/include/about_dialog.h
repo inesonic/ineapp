@@ -18,6 +18,7 @@
 
 class QWidget;
 class QVBoxLayout;
+class QLabel;
 
 /**
  * Dialog used to display information about this application.
@@ -109,6 +110,38 @@ class APP_PUBLIC_API AboutDialog:public EQt::ProgrammaticDialog {
          * \param[in] layout The layout to be filled in.
          */
         void buildCompanyData(QVBoxLayout* layout);
+
+        /**
+         * Method that builds the licensing details.
+         *
+         * \param[in] layout The layout to be filled in.
+         */
+        void buildLicensingDetails(QVBoxLayout* layout);
+
+        #if (defined(AION_COMMERCIAL))
+
+            /**
+             * Method that populates licensing information.
+             *
+             * \param[in] licenseTypeLabel       Label to hold the license type.
+             *
+             * \param[in] licenseUserLabel       Label to hold the licensee name.
+             *
+             * \param[in] licenseCompanyLabel    Label to hold the licensee company name.
+             *
+             * \param[in] licenseKeyLabel        Label to hold the user's license key.
+             *
+             * \param[in] licenseExpirationLabel Label to hold the license expiration.
+             */
+            void populateLicenseData(
+                QLabel* licenseTypeLabel,
+                QLabel* licenseUserLabel,
+                QLabel* licenseCompanyLabel,
+                QLabel* licenseKeyLabel,
+                QLabel* licenseExpirationLabel
+            );
+
+        #endif
 
         /**
          * Method that determines if there are any plug-ins.
