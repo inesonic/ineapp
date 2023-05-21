@@ -120,6 +120,14 @@ class APP_PUBLIC_API Application:public EQt::ProgrammaticApplication {
         static Ud::UsageData* usageData();
 
         /**
+         * Determines if the usage data has been configured by the application already.
+         *
+         * \return Returns true if the usage data has been configured.  Returns false if the usage data has not been
+         *         configured.
+         */
+        static bool usageDataIsConfigured();
+
+        /**
          * Returns a pointer to the application global registrar.
          *
          * \return Returns a pointer to the application global registrar.
@@ -494,6 +502,11 @@ class APP_PUBLIC_API Application:public EQt::ProgrammaticApplication {
          * The current application usage data instance.
          */
         Ud::UsageData* currentUsageData;
+
+        /**
+         * Flag indicating if usage data has been configured.
+         */
+        bool currentUsageDataIsConfigured;
 
         /**
          * The current application registrar.

@@ -18,13 +18,13 @@
     #define __ORGANIZATION_DOMAIN ("staging.inesonic.com")
     #define __TIME_DELTA_WEBHOOK_URL ("https://autonoma.staging.inesonic.com/v2/ts")
     #define __USAGE_STATISTICS_WEBHOOK_URL ("https://autonoma.staging.inesonic.com/v2/usage_data")
-    #define __PRIVACY_POLICY_URL ("http://staging.inesonic.com/privacy-policy/")
+    #define __PRIVACY_POLICY_URL ("https://staging.inesonic.com/privacy-policy/")
     #define __FEEDBACK_URL ("https://staging.inesonic.com/application-support-request/?key=%1")
 #else
     #define __ORGANIZATION_DOMAIN ("inesonic.com")
     #define __TIME_DELTA_WEBHOOK_URL ("https://autonoma.inesonic.com/v2/ts")
     #define __USAGE_STATISTICS_WEBHOOK_URL ("https://autonoma.inesonic.com/v2/usage_data")
-    #define __PRIVACY_POLICY_URL ("http://www.inesonic.com/privacy-policy/")
+    #define __PRIVACY_POLICY_URL ("https://www.inesonic.com/privacy-policy/")
     #define __FEEDBACK_URL ("https://www.inesonic.com/application-support-request/?key=%1")
 #endif
 
@@ -131,6 +131,11 @@
  * Link to location explaining usage data.
  */
 #define PRIVACY_POLICY_URL __PRIVACY_POLICY_URL
+
+/**
+ * Link to location providing details on usage statistics.
+ */
+#define USAGE_STATISTICS_URL ("")
 
 /**
  * One line catch phrase to be shown in the About dialog.

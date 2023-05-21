@@ -41,6 +41,7 @@ API_HEADERS = include/app_common.h \
               include/mac_proxy_style.h \
               include/application.h \
               include/splash_screen.h \
+              include/first_time_start_dialog.h \
               include/selection_data.h \
               include/html_selection_data_translator.h \
               include/latex_selection_data_translator.h \
@@ -365,6 +366,7 @@ SOURCES = source/metatypes.cpp \
           source/mac_proxy_style.cpp \
           source/application.cpp \
           source/splash_screen.cpp \
+          source/first_time_start_dialog.cpp \
           source/selection_data.cpp \
           source/html_selection_data_translator.cpp \
           source/latex_selection_data_translator.cpp \

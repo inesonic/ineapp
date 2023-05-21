@@ -70,7 +70,7 @@
 #include "application_settings.h"
 #include "metatypes.h"
 #include "version.h"
-//#include "scm_version.h"
+#include "first_time_start_dialog.h"
 #include "main_window.h"
 #include "splash_screen.h"
 #include "registrar.h"
@@ -347,9 +347,17 @@ Ud::UsageData* Application::usageData() {
 
         application->currentUsageData->setSettingsGroup("usageData");
         application->currentUsageData->setInterval(USAGE_STATISTICS_REPORT_PERIOD);
+
+        application->currentUsageDataIsConfigured = application->currentUsageData->isConfigured();
     }
 
     return application->currentUsageData;
+}
+
+
+bool Application::usageDataIsConfigured() {
+    Application* application = Application::instance();
+    return application->currentUsageDataIsConfigured;
 }
 
 
@@ -522,6 +530,16 @@ void Application::startUserInterface(EQt::UniqueApplication::StartupCondition) {
 
     splashScreen->initializationCompleted();
     splashScreen = Q_NULLPTR;
+
+    if (!usageDataIsConfigured()) {
+        FirstTimeStartDialog firstTimeStartDialog(PRIVACY_POLICY_URL, mainWindow);
+        firstTimeStartDialog.setModal(true);
+        firstTimeStartDialog.exec();
+
+        bool collectUsageStatistics = firstTimeStartDialog.usageStatisticsEnabled();
+        usageData()->setReportingEnabled(collectUsageStatistics);
+        usageData()->saveSettings();
+    }
 
     usageData()->adjustEvent(QString("ApplicationStart"));
 
